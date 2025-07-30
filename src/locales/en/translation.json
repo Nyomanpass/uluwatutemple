@@ -1,0 +1,300 @@
+{
+  "homenav": "Home",
+  "rules": "Rules",
+  "map": "Map",
+  "kecakSchedule": "Kecak Schedule",
+  "venueRental": "Venue Rental",
+  "urgentContact": "Urgent Contact",
+  "moreInfo": "More Information",
+
+  "footer": {
+    "description": "Discover the legendary Uluwatu Temple in Bali, perched on a stunning cliff with breathtaking ocean views.",
+    "contact": {
+      "admin1": "+62 8123 6937 4779 (admin 1)",
+      "admin2": "+62 8232 2769 6969 (admin 2)",
+      "email": "info@uluwatutemple.id"
+    },
+    "pagesTitle": "OUR PAGES",
+    "pages": {
+      "anchor1": "About Us",
+      "anchor2": "Visit Info",
+      "anchor3": "Cultural Events",
+      "anchor4": "Gallery"
+    },
+    "copyright": "© copyright 2025 Uluwatu Temple. All Rights Reserved.",
+    "poweredBy": "Powered By Bomboraweb"
+  },
+
+  "home": {
+    "hero": {
+      "title": "Welcome to Uluwatu Temple",
+      "description": "Discover the spiritual beauty and stunning cliffside views of Uluwatu. We invite you to explore the traditions, culture, and sacred atmosphere of one of Bali’s most iconic temples."
+    },
+    "openingHours": {
+      "title": "OPENING HOURS",
+      "time": "07.00 AM - 07.00 PM"
+    },
+    "buttons": {
+      "rules": "Rules",
+      "map": "Map",
+      "kecakSchedule": "Kecak Schedule",
+      "venueRental": "Venue Rental",
+      "urgentContact": "Urgent Contact",
+      "moreInfo": "More Information"
+    },
+    "section": {
+      "title": "Exploring the Charms of Culture and Natural Beauty",
+      "paragraph": "Welcome to Uluwatu, a gem on the southern tip of Bali that blends the stunning beauty of ocean cliffs with the rich spirituality of ancient temples. It is here, amidst a breathtaking sunset panorama, that you can witness the legendary Kecak Dance performance, an unforgettable cultural experience. Dive deeper into the charm of Uluwatu and discover why this place has become one of the most sacred and iconic destinations on the Island of the Gods.",
+      "button": "Learn More"
+    }
+  },
+
+  "rulespage": {
+  "title": "Do’s & Don’ts at Uluwatu Temple",
+  "intro": "Visitor Guidelines",
+  "buttomsatu": "Uluwatu Temple",
+  "buttomdua": "Kecak Dance",
+  "uluwatu": {
+    "dos": [
+      {
+        "title": "Buy Entrance Ticket",
+        "desc": "Always purchase your ticket at the official entrance gate."
+      },
+      {
+        "title": "Wear a Sarong and Sash",
+        "desc": "Sarong and sash are provided at the entrance as a sign of respect."
+      },
+      {
+        "title": "Dress Modestly and Comfortably",
+        "desc": "Proper attire is required as this is a sacred site."
+      },
+      {
+        "title": "Behave Respectfully",
+        "desc": "Follow local customs and maintain a respectful demeanor."
+      },
+      {
+        "title": "Explore with a Local Guide",
+        "desc": "Learn about Uluwatu’s rich history, culture, and natural beauty with a guide."
+      },
+      {
+        "title": "Take Photos",
+        "desc": "Capture the beauty of Uluwatu Temple, but respect restricted areas."
+      },
+      {
+        "title": "Use Your Camera Safely",
+        "desc": "Hold your camera securely to prevent accidental drops or theft by monkeys."
+      },
+      {
+        "title": "Handle Your Phone Carefully",
+        "desc": "Be cautious when using your phone, as monkeys may try to snatch it."
+      },
+      {
+        "title": "Secure Your Belongings",
+        "desc": "Keep sunglasses, hats, and bags away from mischievous monkeys."
+      },
+      {
+        "title": "Watch the Kecak Dance at Sunset",
+        "desc": "Enjoy the famous Kecak Dance while admiring Bali’s stunning sunset."
+      },
+      {
+        "title": "Park in Designated Areas",
+        "desc": "Use official parking zones to avoid fines or inconvenience."
+      }
+    ],
+    "donts": [
+      {
+        "title": "Do Not Feed the Monkeys",
+        "desc": "Feeding them disrupts their natural behavior and should only be done under staff supervision."
+      },
+      {
+        "title": "Do Not Touch, Catch, or Disturb the Monkeys",
+        "desc": "They are sacred and should be left alone."
+      },
+      {
+        "title": "Do Not Enter Sacred Areas",
+        "desc": "Only authorized personnel and worshippers may enter the temple’s restricted zones."
+      },
+      {
+        "title": "Menstruating Women Should Not Enter Temple Areas",
+        "desc": "This is a traditional rule in Balinese Hindu temples."
+      },
+      {
+        "title": "Do Not Sit or Climb on Boundary Walls",
+        "desc": "The cliffs are steep and dangerous."
+      },
+      {
+        "title": "No Food or Drink Allowed",
+        "desc": "Bringing food or beverages into the temple grounds is not allowed."
+      },
+      {
+        "title": "Do Not Wear Hats",
+        "desc": "Monkeys may snatch them."
+      },
+      {
+        "title": "Do Not Wear Jewelry",
+        "desc": "Avoid flashy accessories that might attract monkeys."
+      },
+      {
+        "title": "Do Not Use Drones",
+        "desc": "Drone use is strictly prohibited unless with permission."
+      },
+      {
+        "title": "Do Not Bring Sharp Objects",
+        "desc": "Knives or other sharp items are not allowed inside."
+      }
+    ]
+  },
+
+  "kecak": {
+    "dos": [
+      {
+        "title": "Arrive Early",
+        "desc": "The best seats are available to those who arrive before 5 PM."
+      },
+      {
+        "title": "Dress Modestly",
+        "desc": "As it’s part of Uluwatu Temple, proper attire is required."
+      },
+      {
+        "title": "Wear Comfortable Shoes",
+        "desc": "The amphitheater seating is made of stone, so comfortable footwear is recommended."
+      },
+      {
+        "title": "Bring Sunglasses & Water",
+        "desc": "The sunset is bright, and the amphitheater can get hot."
+      },
+      {
+        "title": "Follow Seating Arrangements",
+        "desc": "Respect designated seating to ensure a smooth experience for all."
+      },
+      {
+        "title": "Respect the Performers",
+        "desc": "Keep quiet and avoid using flash photography during the show."
+      }
+    ],
+    "donts": [
+      {
+        "title": "No Drone Flying",
+        "desc": "Drones are not permitted to preserve the temple’s serenity and safety."
+      },
+      {
+        "title": "Do Not Use Flash Photography",
+        "desc": "Flashes disturb both performers and the audience."
+      },
+      {
+        "title": "Do Not Stand or Move During the Performance",
+        "desc": "Walking around can disrupt others and distract from the show."
+      },
+      {
+        "title": "Do Not Speak Loudly",
+        "desc": "Keep voices low to maintain the sacred atmosphere of the performance."
+      },
+      {
+        "title": "Do Not Bring Large Bags",
+        "desc": "Backpacks or large suitcases may not be allowed inside the seating area."
+      },
+      {
+        "title": "No Smoking Inside the Venue",
+        "desc": "Smoking is strictly prohibited within the amphitheater."
+      }
+    ]
+  }
+},
+
+"kecakPage": {
+    "welcomeTitle": "We Welcome You Every Day",
+    "openingHoursTitle": "OPENING HOURS",
+    "openingHoursTime": "6:00PM – 7:00PM (Every Day)",
+    "openGateTitle": "OPEN GATE",
+    "openGateTime": "4:00PM",
+    "openGateNote": "To secure the best seats, visitors are encouraged to arrive at least one hour before the performance begins. As the show is highly popular, tickets may sell out quickly, especially during peak seasons.",
+    "ticketPricesTitle": "TICKET PRICES",
+    "ticketPrices": {
+      "adults": "Adults: IDR 150,000",
+      "children": "Children (2 - 9 years old): IDR 75,000"
+    },
+    "whereToBuyTitle": "Where to Buy Tickets?",
+    "whereToBuy": {
+      "booth": "Official Ticket Booth: Located at Uluwatu Temple entrance",
+      "online": "Online Reservations: Some platforms may offer pre-booking options for convenience"
+    },
+    "importantNoteTitle": "IMPORTANT NOTE:",
+    "importantNotes": {
+      "fees": "Parking fees and area entrance fees are NOT included in the Kecak Dance ticket price",
+      "payment": "Payments are generally cash-only, so prepare the exact amount before arrival"
+    },
+    "whyUniqueTitle": "WHY IS KECAK DANCE PERFORMANCE UNIQUE?",
+
+    "section1": {
+      "title": "No Musical Instruments, Only Chanting",
+      "description": "Unlike traditional Balinese dance performances that are fully accompanied by a gamelan orchestra, Kecak Dance relies entirely on the synchronized chanting of dozens or even hundreds of male performers. Their interlocked vocal sounds create a hypnotic rhythm, mimicking the percussive sounds of a traditional orchestra. This unique vocal harmony builds intensity throughout the show, drawing the audience deeper into the story."
+    },
+
+    "section2": {
+      "title": "Fire Performance in Hanuman's Battle Scene",
+      "description": "One of the most thrilling aspects of Kecak Dance is the fire performance, usually during the climactic scene of Hanuman, the white monkey warrior, in his ablaze battle. Dressed in traditional Balinese attire, a dancer performs symbolic elements representing purification and divine power. This fiery spectacle is a truly astonishing moment that leaves the audience in awe."
+    },
+
+    "section3": {
+      "title": "Performed on a Cliffside with a Breathtaking Sunset",
+      "description": "The Uluwatu Temple amphitheater provides an unmatched setting for Kecak Dance. Located atop a dramatic ocean cliff, with panoramic views of the Indian Ocean, the sun sets behind the temple, creating a magical backdrop of golden hues and crashing waves. This combination of mythology, spiritual ambiance, and natural significance makes this experience truly unforgettable."
+    }
+  },
+
+  "prewedding": {
+    "title": "PREWEDDING & PHOTOGRAPHY",
+    "subtitle": "Capture Your Dream Wedding Moments in Uluwatu & Labuan Sait",
+
+    "whyTitle": "Why Choose Uluwatu & Labuan Sait for Your Prewedding Photoshoot?",
+    "whyDescription": "Bali is a dream destination for couples looking for stunning prewedding photography locations, and Uluwatu Temple and Labuan Sait Beach stand out as two of the most breathtaking backdrops. With their majestic cliffs, golden sunsets, and rich cultural heritage, these locations provide an unforgettable setting for capturing love stories.",
+
+    "locationsTitle": "Best Locations for Stunning Shots",
+    "locations": {
+      "cliffside": "Uluwatu Temple Cliffside – Overlooking the vast Indian Ocean.",
+      "amphitheater": "Uluwatu Amphitheater – A cultural backdrop blending Balinese architecture and ocean views.",
+      "rockFormations": "Labuan Sait Beach Rock Formations – Unique limestone formations.",
+      "sunset": "Sunset at Labuan Sait – The golden hour enhances the natural beauty."
+    },
+
+    "themesTitle": "Types of Prewedding Photography Themes",
+    "themes": {
+      "traditional": "Traditional Balinese Elegance – Wearing Balinese attire.",
+      "adventurous": "Adventurous & Scenic – Featuring dramatic cliffside landscapes.",
+      "casual": "Casual & Beachy – Relaxed, intimate shots with soft waves and golden sands."
+    },
+
+    "priceTitle": "Price On The Spot",
+    "price": {
+      "permits": "Photography permits may be required depending on location and duration.",
+      "privateSession": "Exclusive private sessions are available upon request.",
+      "contact": "Contact Uluwatu Temple Management Office for photography permits."
+    },
+
+    "guidelinesTitle": "Important Guidelines to Follow",
+    "guidelinesNote": "Visitors must respect the sacred nature of the location. Please dress modestly and follow local cultural customs when shooting in temple areas."
+  },
+
+  "contact": {
+    "title": "Emergency Contacts",
+    "description": "Reach out to the relevant personnel in case of any emergency.",
+    "note": "This information is subject to change.",
+    "contacts": [
+      {
+        "role": "Temple Security",
+        "name": "Mr. Wayan",
+        "phone": "+62 812-3456-7890",
+        "description": "For security issues around the temple area."
+      },
+      {
+        "role": "Tour Guide",
+        "name": "Mrs. Ayu",
+        "phone": "+62 813-1234-5678",
+        "description": "Contact if you need a local tour guide."
+      }
+    ]
+  }
+
+  
+
+
+}

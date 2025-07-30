@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #7B4019;    /* Contoh warna biru terang */
+  --color-secondary: #6A994E;  /* Contoh warna biru gelap */
+
+  --color-brand-blue-50: #e0f7fa;
+  --color-brand-blue-100: #b2ebf2;
+  --color-brand-blue-200: #80deea;
+  --color-brand-blue-300: #4dd0e1;
+  --color-brand-blue-400: #26c6da;
+  --color-brand-blue-500: #00bcd4;
+  --color-brand-blue-600: #00acc1;
+  --color-brand-blue-700: #0097a7;
+  --color-brand-blue-800: #00838f;
+  --color-brand-blue-900: #006064;
+}

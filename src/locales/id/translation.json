@@ -1,0 +1,302 @@
+{
+  "homenav": "Beranda",
+  "rules": "Aturan",
+  "map": "Peta",
+  "kecakSchedule": "Jadwal Kecak",
+  "venueRental": "Sewa Tempat",
+  "urgentContact": "Kontak Darurat",
+  "moreInfo": "Info Selengkapnya",
+
+  "footer": {
+    "description": "Temukan Pura Uluwatu yang legendaris di Bali, terletak di atas tebing menakjubkan dengan pemandangan laut yang memukau.",
+    "contact": {
+      "admin1": "+62 8123 6937 4779 (admin 1)",
+      "admin2": "+62 8232 2769 6969 (admin 2)",
+      "email": "info@uluwatutemple.id"
+    },
+    "pagesTitle": "HALAMAN KAMI",
+    "pages": {
+      "anchor1": "Tentang Kami",
+      "anchor2": "Info Kunjungan",
+      "anchor3": "Acara Budaya",
+      "anchor4": "Galeri"
+    },
+    "copyright": "© hak cipta 2025 Pura Uluwatu. Seluruh Hak Dilindungi.",
+    "poweredBy": "Dikembangkan oleh Bomboraweb"
+  },
+
+  "home": {
+    "hero": {
+      "title": "Selamat Datang di Pura Uluwatu",
+      "description": "Temukan keindahan spiritual dan pemandangan tebing menakjubkan di Uluwatu. Kami mengundang Anda untuk menjelajahi tradisi, budaya, dan suasana sakral dari salah satu pura paling ikonik di Bali."
+    },
+    "openingHours": {
+      "title": "JAM BUKA",
+      "time": "07.00 - 19.00 WITA"
+    },
+    "buttons": {
+      "rules": "Aturan",
+      "map": "Peta",
+      "kecakSchedule": "Jadwal Kecak",
+      "venueRental": "Sewa Tempat",
+      "urgentContact": "Kontak Darurat",
+      "moreInfo": "Info Selengkapnya"
+    },
+    "section": {
+      "title": "Menjelajahi Pesona Budaya dan Keindahan Alam",
+      "paragraph": "Selamat datang di Uluwatu, permata di ujung selatan Bali yang memadukan keindahan tebing laut yang memukau dengan spiritualitas mendalam dari pura kuno. Di sinilah Anda dapat menyaksikan pertunjukan Tari Kecak legendaris di tengah panorama matahari terbenam yang menakjubkan — sebuah pengalaman budaya yang tak terlupakan. Selami lebih dalam pesona Uluwatu dan temukan mengapa tempat ini menjadi salah satu destinasi paling suci dan ikonik di Pulau Dewata.",
+      "button": "Pelajari Lebih Lanjut"
+    }
+  },
+
+
+  "rulespage":{
+      "title": "Yang Boleh & Tidak Boleh di Pura Uluwatu",
+      "intro": "Panduan Pengunjung",
+      "buttomsatu": "Pura Uluwatu",
+      "buttomdua": "Tari Kecak",
+      "uluwatu": {
+        "dos": [
+          {
+            "title": "Beli Tiket Masuk",
+            "desc": "Selalu beli tiket Anda di pintu masuk resmi."
+          },
+          {
+            "title": "Kenakan Sarung dan Selendang",
+            "desc": "Sarung dan selendang disediakan di pintu masuk sebagai tanda penghormatan."
+          },
+          {
+            "title": "Berapakailah dengan Sopan dan Nyaman",
+            "desc": "Pakaian yang pantas diperlukan karena ini adalah tempat suci."
+          },
+          {
+            "title": "Berperilaku Hormat",
+            "desc": "Ikuti adat istiadat setempat dan pertahankan sikap hormat."
+          },
+          {
+            "title": "Jelajahilah dengan Pemandu Lokal",
+            "desc": "Pelajari tentang kekayaan sejarah, budaya, dan keindahan alam Uluwatu dengan bantuan seorang pemandu."
+          },
+          {
+            "title": "Ambil Foto",
+            "desc": "Abadikan keindahan Pura Uluwatu, tetapi perhatikan area terlarang."
+          },
+          {
+            "title": "Gunakan Kamera Anda dengan Aman",
+            "desc": "Pastikan Anda memegang kamera dengan kuat untuk menghindari terjatuh secara tidak sengaja atau pencurian oleh monyet."
+          },
+          {
+            "title": "Tangani Ponsel Anda dengan Hati-hati",
+            "desc": "Berhati-hatilah saat menggunakan ponsel, karena monyet mungkin mencoba merebutnya."
+          },
+          {
+            "title": "Amankan Barang Milik Anda",
+            "desc": "Jauhkan kacamata hitam, topi, dan tas Anda dari gangguan monyet nakal."
+          },
+          {
+            "title": "Saksikan Tari Kecak saat Matahari Terbenam",
+            "desc": "Nikmati Tari Kecak yang terkenal sambil menikmati matahari terbenam yang menakjubkan di Bali."
+          },
+          {
+            "title": "Parkir di Area yang Ditetapkan",
+            "desc": "Gunakan tempat parkir resmi untuk menghindari denda atau ketidaknyamanan."
+          }
+        ],
+        "donts": [
+          {
+            "title": "Jangan Memberi Makan Monyet",
+            "desc": "Memberi mereka makan mengganggu perilaku alami mereka dan hanya boleh dilakukan di bawah pengawasan staf."
+          },
+          {
+            "title": "Jangan Menyentuh, Menangkap, atau Mengganggu Monyet",
+            "desc": "Mereka suci dan harus dibiarkan saja."
+          },
+          {
+            "title": "Jangan Memasuki Area Suci",
+            "desc": "Hanya personel dan pemuja yang berwenang yang diizinkan memasuki zona kuil terlarang."
+          },
+          {
+            "title": "Wanita yang Sedang Haid Tidak Boleh Masuk Area Pura",
+            "desc": "Ini merupakan aturan adat di Pura Hindu Bali."
+          },
+          {
+            "title": "Jangan Duduk atau Memanjat Tembok Batas",
+            "desc": "Tebingnya curam dan berbahaya."
+          },
+          {
+            "title": "Dilarang Membawa Makanan dan Minuman",
+            "desc": "Dilarang membawa makanan dan minuman ke dalam area pura."
+          },
+          {
+            "title": "Jangan Memakai Topi",
+            "desc": "Monyet mungkin akan mengambilnya."
+          },
+          {
+            "title": "Jangan Memakai Perhiasan",
+            "desc": "Hindari mengenakan aksesoris mencolok yang dapat menarik perhatian monyet."
+          },
+          {
+            "title": "Jangan Gunakan Drone",
+            "desc": "Penggunaan drone sangat dilarang kecuali diizinkan."
+          },
+          {
+            "title": "Jangan Membawa Benda Tajam",
+            "desc": "Pisau atau benda tajam lainnya tidak diperbolehkan masuk ke dalam."
+          }
+        ]
+      },
+
+      "kecak": {
+      "dos": [
+        {
+          "title": "Datang Lebih Awal",
+          "desc": "Tempat duduk terbaik tersedia bagi mereka yang datang sebelum pukul 17.00."
+        },
+        {
+          "title": "Berapakailah dengan Sopan",
+          "desc": "Karena tempat ini merupakan bagian dari Pura Uluwatu, maka diperlukan pakaian yang sopan."
+        },
+        {
+          "title": "Kenakan Sepatu yang Nyaman",
+          "desc": "Tempat duduk amfiteater terbuat dari batu, jadi disarankan untuk memakai alas kaki yang nyaman."
+        },
+        {
+          "title": "Bawa Kacamata Hitam & Air",
+          "desc": "Matahari terbenamnya cerah, dan amfiteaternya menjadi panas."
+        },
+        {
+          "title": "Patuhi Pengaturan Tempat Duduk",
+          "desc": "Hormati tempat duduk yang ditentukan untuk memastikan pengalaman yang lancar bagi semua pengunjung."
+        },
+        {
+          "title": "Hormati Para Penampil",
+          "desc": "Jaga keheningan dan hindari penggunaan lampu kilat saat memotret selama pertunjukan."
+        }
+      ],
+      "donts": [
+        {
+          "title": "Dilarang Terbang dengan Drone",
+          "desc": "Drone tidak diperbolehkan untuk menjaga ketenangan dan keamanan kuil."
+        },
+        {
+          "title": "Jangan Gunakan Flash untuk Fotografi",
+          "desc": "Flash mengganggu para pemain dan penonton lainnya."
+        },
+        {
+          "title": "Jangan Berdiri atau Bergerak Selama Pertunjukan",
+          "desc": "Berjalan-jalan dapat mengganggu orang lain dan mengganggu pertunjukan."
+        },
+        {
+          "title": "Jangan Berbicara Keras",
+          "desc": "Jaga suara tetap rendah untuk menjaga suasana sakral pertunjukan."
+        },
+        {
+          "title": "Jangan Membawa Tas Besar",
+          "desc": "Tas ransel atau koper besar mungkin tidak diperbolehkan masuk ke dalam area tempat duduk."
+        },
+        {
+          "title": "Dilarang Merokok di Dalam Tempat",
+          "desc": "Merokok dilarang keras di dalam amfiteater."
+        }
+      ]
+    }
+
+  },
+
+  "kecakPage": {
+    "welcomeTitle": "Kami Menyambut Anda Setiap Hari",
+    "openingHoursTitle": "JAM PERTUNJUKAN",
+    "openingHoursTime": "18.00 – 19.00 (Setiap Hari)",
+    "openGateTitle": "GERBANG DIBUKA",
+    "openGateTime": "16.00",
+    "openGateNote": "Untuk mendapatkan tempat duduk terbaik, pengunjung disarankan datang minimal satu jam sebelum pertunjukan dimulai. Karena pertunjukan ini sangat populer, tiket dapat habis terjual dengan cepat, terutama di musim liburan.",
+    "ticketPricesTitle": "HARGA TIKET",
+    "ticketPrices": {
+      "adults": "Dewasa: Rp150.000",
+      "children": "Anak-anak (usia 2 - 9 tahun): Rp75.000"
+    },
+    "whereToBuyTitle": "Di Mana Membeli Tiket?",
+    "whereToBuy": {
+      "booth": "Loket Resmi: Terletak di pintu masuk Pura Uluwatu",
+      "online": "Reservasi Online: Beberapa platform mungkin menyediakan opsi pemesanan sebelumnya untuk kenyamanan"
+    },
+    "importantNoteTitle": "CATATAN PENTING:",
+    "importantNotes": {
+      "fees": "Biaya parkir dan biaya masuk area TIDAK termasuk dalam harga tiket Tari Kecak",
+      "payment": "Pembayaran umumnya hanya tunai, jadi harap siapkan uang pas sebelum datang"
+    },
+    "whyUniqueTitle": "APA YANG MEMBUAT TARI KECAK UNIK?",
+
+    "section1": {
+      "title": "Tanpa Alat Musik, Hanya Nyanyian",
+      "description": "Berbeda dengan pertunjukan tari Bali tradisional yang biasanya diiringi oleh gamelan, Tari Kecak sepenuhnya mengandalkan nyanyian ritmis yang disinkronkan dari puluhan hingga ratusan penari laki-laki. Suara vokal mereka yang saling bersahutan menciptakan irama yang menghypnotis, meniru bunyi perkusif seperti orkestra. Harmoni vokal yang unik ini membangun intensitas sepanjang pertunjukan dan menarik penonton masuk ke dalam cerita."
+    },
+
+    "section2": {
+      "title": "Atraksi Api dalam Adegan Pertempuran Hanuman",
+      "description": "Salah satu bagian paling mendebarkan dari Tari Kecak adalah atraksi api, yang biasanya muncul saat adegan klimaks ketika Hanuman, sang prajurit kera putih, sedang bertempur dalam kobaran api. Penari yang mengenakan busana adat Bali membawakan elemen simbolis yang melambangkan pemurnian dan kekuatan ilahi. Pertunjukan api ini menjadi momen yang sangat memukau dan tak terlupakan bagi penonton."
+    },
+
+    "section3": {
+      "title": "Dipentaskan di Atas Tebing dengan Latar Matahari Terbenam yang Menakjubkan",
+      "description": "Amfiteater Pura Uluwatu menawarkan lokasi yang tak tertandingi untuk pertunjukan Tari Kecak. Terletak di atas tebing laut yang dramatis dengan pemandangan Samudra Hindia yang luas, matahari terbenam di balik pura menciptakan latar belakang yang magis dengan cahaya keemasan dan deburan ombak. Kombinasi antara mitologi, suasana spiritual, dan keindahan alam ini menjadikan pengalaman ini benar-benar tak terlupakan."
+    }
+  },
+
+  "prewedding": {
+    "title": "PREWEDDING & FOTOGRAFI",
+    "subtitle": "Abadikan Momen Pernikahan Impian Anda di Uluwatu & Labuan Sait",
+
+    "whyTitle": "Mengapa Memilih Uluwatu & Labuan Sait untuk Sesi Foto Prewedding?",
+    "whyDescription": "Bali adalah destinasi impian bagi pasangan yang mencari lokasi prewedding yang menakjubkan, dan Pura Uluwatu serta Pantai Labuan Sait adalah dua latar belakang paling memukau. Dengan tebing megah, matahari terbenam emas, dan warisan budaya yang kaya, tempat-tempat ini menawarkan suasana tak terlupakan untuk mengabadikan kisah cinta Anda.",
+
+    "locationsTitle": "Lokasi Terbaik untuk Hasil Foto Menawan",
+    "locations": {
+      "cliffside": "Tebing Pura Uluwatu – Menghadap Samudra Hindia yang luas.",
+      "amphitheater": "Amfiteater Uluwatu – Latar budaya yang memadukan arsitektur Bali dan pemandangan laut.",
+      "rockFormations": "Formasi Batu di Pantai Labuan Sait – Formasi batu kapur yang unik.",
+      "sunset": "Matahari Terbenam di Labuan Sait – Cahaya keemasan memperindah keindahan alam."
+    },
+
+    "themesTitle": "Jenis Tema Fotografi Prewedding",
+    "themes": {
+      "traditional": "Elegansi Tradisional Bali – Mengenakan busana adat Bali.",
+      "adventurous": "Petualangan & Pemandangan – Dengan latar tebing dramatis.",
+      "casual": "Santai & Pantai – Gaya kasual, intim dengan deburan ombak dan pasir keemasan."
+    },
+
+    "priceTitle": "Harga Langsung di Lokasi",
+    "price": {
+      "permits": "Izin fotografi mungkin dibutuhkan tergantung lokasi dan durasi.",
+      "privateSession": "Sesi privat eksklusif tersedia atas permintaan.",
+      "contact": "Hubungi Kantor Pengelola Pura Uluwatu untuk izin fotografi."
+    },
+
+    "guidelinesTitle": "Panduan Penting yang Harus Diikuti",
+    "guidelinesNote": "Pengunjung harus menghormati kesucian tempat. Mohon berpakaian sopan dan mengikuti adat budaya setempat saat mengambil foto di area pura."
+  },
+
+  "contact": {
+    "title": "Kontak Darurat",
+    "description": "Hubungi pihak terkait jika terjadi situasi darurat di area ini.",
+    "note": "Informasi ini dapat berubah sewaktu-waktu.",
+    "contacts": [
+      {
+        "role": "Keamanan Pura",
+        "name": "Pak Wayan",
+        "phone": "+62 812-3456-7890",
+        "description": "Untuk masalah keamanan di area pura."
+      },
+      {
+        "role": "Pemandu Wisata",
+        "name": "Bu Ayu",
+        "phone": "+62 813-1234-5678",
+        "description": "Hubungi jika Anda membutuhkan pemandu lokal."
+      }
+    ]
+  }
+
+
+
+  
+}
