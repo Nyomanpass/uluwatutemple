@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
 import './App.css';
 
-import Map from './pages/map';
+import Map from './pages/Map';
 import Home from './pages/Home';
 import Rules from './pages/Rules';
 import Kecak from './pages/Kecak';
