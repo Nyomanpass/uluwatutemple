@@ -304,6 +304,19 @@
   ]
 },
 
+"ticket": {
+    "entranceFee": "门票",
+    "foreignerAdult": "成人（外国人）",
+    "indonesianAdult": "成人（印尼人）",
+    "foreignerChild": "儿童（外国人）",
+    "indonesianChild": "儿童（印尼人）",
+    "kecakDance": "凯查克舞",
+    "performs": "每天晚上6点表演",
+    "available": "门票可在5点现场购买",
+    "adult": "成人",
+    "child": "儿童"
+  },
+
 "datamap":{
       "taxi": 
         {

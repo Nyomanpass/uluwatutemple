@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -8,12 +8,20 @@ function Navbar() {
   const { t, i18n } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
 
-
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
     setLangOpen(false);
   };
 
+  const getFlag = (lang) => {
+    switch (lang) {
+      case 'id': return '/indonesia.png';
+      case 'zh': return '/china.png';
+      case 'ko': return '/koreaselatan.png';
+      case 'hi': return '/india.png';
+      default: return '/unitedkingdom.png'; // en
+    }
+  };
 
   return (
     <div className={`fixed w-full xl:max-w-[80%] xl:mx-auto top-0 left-0 right-0 z-50 transition-all duration-300 ${!isScrolled ? 'mt-4' : ''}`}>
@@ -37,59 +45,29 @@ function Navbar() {
           <a href="https://uluwatutemple.id/">{t('moreInfo')}</a>
         </div>
 
-        {/* Mobile Right Controls: Language Button + Hamburger */}
+        {/* Mobile Right Controls */}
         <div className="flex items-center space-x-3 xl:hidden relative">
           {/* Language Button (icon only) */}
           <button
             onClick={() => setLangOpen(!langOpen)}
-            className="text-sm px-2 py-1 bg-white border border-gray-300 rounded-xl shadow-sm"
+            className="p-1 bg-white border border-gray-300 rounded-xl shadow-sm"
           >
-            {i18n.language === 'id'
-              ? '🇮🇩 ID'
-              : i18n.language === 'zh'
-              ? '🇨🇳 ZH'
-              : i18n.language === 'ko'
-              ? '🇰🇷 KO'
-              : i18n.language === 'hi'
-              ? '🇮🇳 HI'
-              : '🇺🇸 EN'} {/* default */}
+            <img src={getFlag(i18n.language)} alt="Lang" className="w-6 h-6 rounded-full" />
           </button>
-
 
           {/* Language Popup */}
           {langOpen && (
             <div className="absolute top-10 right-10 bg-white border w-[100px] rounded-xl shadow-xl z-50">
-              <button
-                onClick={() => changeLanguage('en')}
-                className="block w-full px-4 py-2 text-left hover:bg-gray-100"
-              >
-                🇺🇸 <span>EN</span>
-              </button>
-              <button
-                onClick={() => changeLanguage('id')}
-                className="block w-full px-4 py-2 text-left hover:bg-gray-100"
-              >
-                🇮🇩 <span>ID</span>
-              </button>
-              <button
-                onClick={() => changeLanguage('zh')}
-                className="block w-full px-4 py-2 text-left hover:bg-gray-100"
-              >
-                🇨🇳 <span>ZH</span>
-              </button>
-               <button
-                  onClick={() => changeLanguage('ko')}
-                  className="block w-full px-4 py-2 text-left hover:bg-gray-100"
+              {['en', 'id', 'zh', 'ko', 'hi'].map((lang) => (
+                <button
+                  key={lang}
+                  onClick={() => changeLanguage(lang)}
+                  className="flex items-center gap-2 w-full px-4 py-2 text-left hover:bg-gray-100"
                 >
-                  🇰🇷 <span>KO</span>
+                  <img src={getFlag(lang)} alt={lang} className="w-5 h-5 rounded-full" />
+                  <span className="uppercase">{lang}</span>
                 </button>
-              <button
-                onClick={() => changeLanguage('hi')}
-                className="block w-full px-4 py-2 text-left hover:bg-gray-100"
-              >
-                🇮🇳 <span>HI</span>
-              </button>
-
+              ))}
             </div>
           )}
 
@@ -103,55 +81,23 @@ function Navbar() {
         <div className="hidden xl:block relative">
           <button
             onClick={() => setLangOpen(!langOpen)}
-            className="text-sm px-2 py-1 bg-white border border-gray-300 rounded-xl shadow-sm"
+            className="p-1 bg-white border border-gray-300 rounded-xl shadow-sm"
           >
-            {i18n.language === 'id'
-              ? '🇮🇩 ID'
-              : i18n.language === 'zh'
-              ? '🇨🇳 ZH'
-              : i18n.language === 'ko'
-              ? '🇰🇷 KO'
-              : i18n.language === 'hi'
-              ? '🇮🇳 HI'
-              : '🇺🇸 EN'} {/* default */}
+            <img src={getFlag(i18n.language)} alt="Lang" className="w-6 h-6 rounded-full" />
           </button>
-
-
 
           {langOpen && (
             <div className="absolute right-0 mt-2 w-40 bg-white border rounded-xl shadow-xl z-50">
-              <button
-                onClick={() => changeLanguage('en')}
-                className="block w-full px-4 py-2 text-left hover:bg-gray-100"
-              >
-                🇺🇸 <span>EN</span>
-              </button>
-              <button
-                onClick={() => changeLanguage('id')}
-                className="block w-full px-4 py-2 text-left hover:bg-gray-100"
-              >
-                🇮🇩 <span>ID</span>
-              </button>
-              <button
-                onClick={() => changeLanguage('zh')}
-                className="block w-full px-4 py-2 text-left hover:bg-gray-100"
-              >
-                🇨🇳 <span>ZH</span>
-              </button>
-
-               <button
-                  onClick={() => changeLanguage('ko')}
-                  className="block w-full px-4 py-2 text-left hover:bg-gray-100"
-                >
-                  🇰🇷 <span>KO</span>
-                </button>
+              {['en', 'id', 'zh', 'ko', 'hi'].map((lang) => (
                 <button
-                  onClick={() => changeLanguage('hi')}
-                  className="block w-full px-4 py-2 text-left hover:bg-gray-100"
+                  key={lang}
+                  onClick={() => changeLanguage(lang)}
+                  className="flex items-center gap-2 w-full px-4 py-2 text-left hover:bg-gray-100"
                 >
-                  🇮🇳 <span>HI</span>
+                  <img src={getFlag(lang)} alt={lang} className="w-5 h-5 rounded-full" />
+                  <span className="uppercase">{lang}</span>
                 </button>
-
+              ))}
             </div>
           )}
         </div>

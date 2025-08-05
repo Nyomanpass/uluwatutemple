@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import HeroSlider from "../components/HeroSlider";
+import TicketInfo from "./TicketInfo";
 
 function Home() {
   const { t } = useTranslation();
@@ -28,7 +29,7 @@ function Home() {
       <HeroSlider/>
   
       {/* Main Content */}
-      <div id="maincontent" className="bg-white rounded-t-3xl p-4 mb-14 max-w-6xl mx-auto">
+      <div id="maincontent" className="bg-white rounded-t-3xl p-4 mb-4 max-w-6xl mx-auto">
         {/* Opening Hours */}
         <div
           className="bg-secondary text-white p-4 rounded-xl flex items-center gap-3 mb-6"
@@ -51,6 +52,8 @@ function Home() {
             <div className="text-xs">{t("home.openingHours.time")}</div>
           </div>
         </div>
+
+    
 
         {/* Button Grid */}
         <div
@@ -75,6 +78,7 @@ function Home() {
           ))}
         </div>
       </div>
+         <TicketInfo/>
 
       {/* Section Description */}
       <section

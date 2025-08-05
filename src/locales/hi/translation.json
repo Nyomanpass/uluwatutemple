@@ -301,6 +301,19 @@
   ]
 },
 
+"ticket": {
+    "entranceFee": "प्रवेश शुल्क",
+    "foreignerAdult": "वयस्क (विदेशी)",
+    "indonesianAdult": "वयस्क (इंडोनेशियाई)",
+    "foreignerChild": "बच्चे (विदेशी)",
+    "indonesianChild": "बच्चे (इंडोनेशियाई)",
+    "kecakDance": "केचक नृत्य",
+    "performs": "हर दिन शाम को प्रदर्शन",
+    "available": "टिकट स्थल पर शाम को उपलब्ध होंगे",
+    "adult": "वयस्क",
+    "child": "बच्चे"
+  },
+
   "datamap":{
       "taxi": 
         {

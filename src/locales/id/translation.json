@@ -300,6 +300,19 @@
     ]
   },
 
+   "ticket": {
+    "entranceFee": "Tiket Masuk",
+    "foreignerAdult": "Dewasa (WNA)",
+    "indonesianAdult": "Dewasa (WNI)",
+    "foreignerChild": "Anak-anak (WNA)",
+    "indonesianChild": "Anak-anak (WNI)",
+    "kecakDance": "Tari Kecak",
+    "performs": "Tampil setiap hari pukul",
+    "available": "Tiket tersedia langsung di lokasi mulai pukul",
+    "adult": "Dewasa",
+    "child": "Anak-anak"
+  },
+
   "datamap":{
       "taxi": {
           "title": "Parkir Area",

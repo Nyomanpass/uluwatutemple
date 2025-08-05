@@ -298,6 +298,19 @@
     ]
   },
 
+  "ticket": {
+    "entranceFee": "입장료",
+    "foreignerAdult": "성인 (외국인)",
+    "indonesianAdult": "성인 (인도네시아인)",
+    "foreignerChild": "어린이 (외국인)",
+    "indonesianChild": "어린이 (인도네시아인)",
+    "kecakDance": "케착 댄스",
+    "performs": "매일 오후 6시에 공연",
+    "available": "티켓은 오후 5시에 현장에서 구매 가능",
+    "adult": "성인",
+    "child": "어린이"
+  },
+
   
   "datamap":{
       "taxi": 

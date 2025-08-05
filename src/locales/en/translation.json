@@ -300,6 +300,19 @@
     ]
   },
 
+  "ticket": {
+    "entranceFee": "Entrance Fee",
+    "foreignerAdult": "Adult (Foreigner)",
+    "indonesianAdult": "Adult (Indonesian)",
+    "foreignerChild": "Children (Foreigner)",
+    "indonesianChild": "Children (Indonesian)",
+    "kecakDance": "Kecak Dance",
+    "performs": "Performs everyday at",
+    "available": "Tickets available on the spot at",
+    "adult": "Adult",
+    "child": "Children"
+  },
+
   "datamap":{
       "taxi": 
         {
