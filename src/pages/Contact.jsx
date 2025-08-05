@@ -9,6 +9,12 @@ const Contact = () => {
 
   return (
     <>
+        <a href="https://wa.me/6281236937479" target="_blank"
+            className="fixed bottom-6 right-6 z-50 text-white animate-bounce focus:outline-none transition duration-300">
+            <div className="flex gap-2 items-center">
+                <img src="/logowa.png" alt="WhatsApp Icon" className="w-12 md:w-14"/>
+            </div>
+        </a>
     <Navbar />
     {/* WRAPPER */}
     <div className="flex flex-col min-h-screen">
@@ -19,10 +25,6 @@ const Contact = () => {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4" data-aos="fade-down">
               {t('contact.title')}
             </h2>
-            <p className="text-base text-gray-700 leading-relaxed mb-10" data-aos="fade-up">
-              {t('contact.description')}
-            </p>
-
             <div className="grid gap-6 sm:grid-cols-1 lg:grid-cols-2" data-aos="fade-up" data-aos-delay="100">
               {contacts.map((contact, index) => (
                 <div
@@ -32,9 +34,6 @@ const Contact = () => {
                   data-aos-delay={index * 100}
                 >
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{contact.role}</h3>
-                  <p className="text-md text-gray-700 mb-1">
-                    <span className="font-semibold">Name:</span> {contact.name}
-                  </p>
                   <p className="text-lg font-bold text-primary mb-3">
                     <a href={`tel:${contact.phone.replace(/[^+\d]/g, '')}`} className="hover:underline">
                       {contact.phone}
@@ -44,10 +43,6 @@ const Contact = () => {
                 </div>
               ))}
             </div>
-
-            <p className="mt-10 text-sm text-gray-500" data-aos="fade-up" data-aos-delay="200">
-              {t('contact.note')}
-            </p>
           </div>
         </section>
       </main>

@@ -10,25 +10,33 @@
   "footer": {
     "description": "Temukan Pura Uluwatu yang legendaris di Bali, terletak di atas tebing menakjubkan dengan pemandangan laut yang memukau.",
     "contact": {
-      "admin1": "+62 8123 6937 4779 (admin 1)",
-      "admin2": "+62 8232 2769 6969 (admin 2)",
+      "admin1": "+62 8123 6937 479 (admin 1)",
+      "admin2": "+62 8232 7696 969 (admin 2)",
       "email": "info@uluwatutemple.id"
     },
     "pagesTitle": "HALAMAN KAMI",
+    "pagesContact": "KONTAK KAMI",
+    "pagesName": "PURA LUHUR ULUWATU",
     "pages": {
       "anchor1": "Tentang Kami",
       "anchor2": "Info Kunjungan",
       "anchor3": "Acara Budaya",
       "anchor4": "Galeri"
     },
-    "copyright": "© hak cipta 2025 Pura Uluwatu. Seluruh Hak Dilindungi.",
-    "poweredBy": "Dikembangkan oleh Bomboraweb"
+    "copyright": "© hak cipta 2025 Pura Uluwatu. Seluruh Hak Dilindungi."
   },
 
   "home": {
     "hero": {
       "title": "Selamat Datang di Pura Uluwatu",
-      "description": "Temukan keindahan spiritual dan pemandangan tebing menakjubkan di Uluwatu. Kami mengundang Anda untuk menjelajahi tradisi, budaya, dan suasana sakral dari salah satu pura paling ikonik di Bali."
+      "titlesatu": "Ketentuan Pakaian untuk Pengunjung",
+      "titledua": "Nikmati Pertunjukan Tari Kecak",
+      "description": "Temukan keindahan spiritual dan pemandangan tebing menakjubkan di Uluwatu. Kami mengundang Anda untuk menjelajahi tradisi, budaya, dan suasana sakral dari salah satu pura paling ikonik di Bali.",
+      "descriptionsatu":  "Untuk kenyamanan bersama, mohon ikuti tata cara masuk area pura. Pengunjung dengan celana panjang dapat menggunakan senteng, sedangkan celana pendek wajib mengenakan kamben.",
+      "descriptiondua":  "Pertunjukan khas Bali yang memukau dengan latar matahari terbenam. Saksikan setiap hari di area pementasan.",
+      "buttonTextsatu": "Jelajahi Lebih Lanjut",
+      "buttonTextdua": "Lihat Tutorial",
+      "buttonTexttiga": "Lihat Jadwal Tari"
     },
     "openingHours": {
       "title": "JAM BUKA",
@@ -44,7 +52,7 @@
     },
     "section": {
       "title": "Menjelajahi Pesona Budaya dan Keindahan Alam",
-      "paragraph": "Selamat datang di Uluwatu, permata di ujung selatan Bali yang memadukan keindahan tebing laut yang memukau dengan spiritualitas mendalam dari pura kuno. Di sinilah Anda dapat menyaksikan pertunjukan Tari Kecak legendaris di tengah panorama matahari terbenam yang menakjubkan — sebuah pengalaman budaya yang tak terlupakan. Selami lebih dalam pesona Uluwatu dan temukan mengapa tempat ini menjadi salah satu destinasi paling suci dan ikonik di Pulau Dewata.",
+      "paragraph": "Selamat datang di Uluwatu, permata di ujung selatan Bali yang memadukan keindahan tebing laut yang memukau dengan spiritualitas mendalam dari pura kuno. Di sinilah Anda dapat menyaksikan pertunjukan Tari Kecak legendaris di tengah panorama matahari terbenam yang menakjubkan — sebuah pengalaman budaya yang tak terlupakan. Selami lebih dalam pesona Uluwatu dan temukan mengapa tempat ini menjadi salah satu destinasi paling populer dan ikonik di Pulau Dewata.",
       "button": "Pelajari Lebih Lanjut"
     }
   },
@@ -245,8 +253,7 @@
 
   "prewedding": {
     "title": "PREWEDDING & FOTOGRAFI",
-    "subtitle": "Abadikan Momen Pernikahan Impian Anda di Uluwatu & Labuan Sait",
-
+    "subtitle": "Layanan ini khusus untuk sesi prewedding, foto pribadi, atau komersial, bukan untuk pelaksanaan acara pernikahan atau resepsi.",
     "whyTitle": "Mengapa Memilih Uluwatu & Labuan Sait untuk Sesi Foto Prewedding?",
     "whyDescription": "Bali adalah destinasi impian bagi pasangan yang mencari lokasi prewedding yang menakjubkan, dan Pura Uluwatu serta Pantai Labuan Sait adalah dua latar belakang paling memukau. Dengan tebing megah, matahari terbenam emas, dan warisan budaya yang kaya, tempat-tempat ini menawarkan suasana tak terlupakan untuk mengabadikan kisah cinta Anda.",
 
@@ -281,20 +288,138 @@
     "description": "Hubungi pihak terkait jika terjadi situasi darurat di area ini.",
     "note": "Informasi ini dapat berubah sewaktu-waktu.",
     "contacts": [
-      {
-        "role": "Keamanan Pura",
-        "name": "Pak Wayan",
-        "phone": "+62 812-3456-7890",
-        "description": "Untuk masalah keamanan di area pura."
-      },
-      {
-        "role": "Pemandu Wisata",
-        "name": "Bu Ayu",
-        "phone": "+62 813-1234-5678",
-        "description": "Hubungi jika Anda membutuhkan pemandu lokal."
-      }
+        {
+          "role": "Layanan Hotline",
+          "phone": "+62 8232 7696 969"
+        },
+        {
+          "role": "Manajemen Pura Uluwatu",
+          "phone": "+62 8123 6937 479"
+        }
+
     ]
+  },
+
+  "datamap":{
+      "taxi": {
+          "title": "Parkir Area",
+          "details": {
+            "p1": "Area ini merupakan tempat parkir utama bagi para pengunjung Pura Uluwatu. Terletak tidak jauh dari pintu masuk, area ini cukup luas dan mampu menampung kendaraan roda dua maupun roda empat.",
+            "p2": "Suasana di sekitar parkiran cenderung ramai, terutama pada jam-jam kunjungan padat. Dari sini, pengunjung dapat langsung melanjutkan perjalanan menuju area utama pura dengan berjalan kaki melewati jalur yang telah disediakan.",
+            "p3": "Di sekitar parkiran juga terdapat beberapa papan informasi serta petugas yang membantu mengarahkan kendaraan agar tetap tertib dan aman."
+          }
+      },
+
+      "toiletsatu": {
+          "title": "Fasilitas Toilet di Area Parkir Pura Uluwatu",
+          "details": {
+            "p1": "Toilet tersedia di area parkir dan dapat digunakan oleh seluruh pengunjung yang datang ke Pura Uluwatu.",
+            "p2": "Lokasinya berada dekat pintu masuk utama dan dilengkapi dengan papan petunjuk yang jelas. Toilet untuk pria dan wanita disediakan secara terpisah guna menjaga kenyamanan dan kebersihan.",
+            "p3": "Fasilitas yang tersedia di dalam toilet meliputi air bersih, wastafel untuk mencuci tangan, dan tempat sampah yang rutin dibersihkan oleh petugas."
+          }
+      },
+      "toiletdua": {
+        "title": "Toilet di Sebelah Utara Kawasan Pura Uluwatu",
+        "details": {
+          "p1": "Toilet Utara terletak di sebelah utara kawasan Pura, terpisah dari area parkir utama.",
+          "p2": "Lokasinya berada di ujung jalur pengunjung sisi utara, dekat dengan titik pandang dan rute keluar.",
+          "p3": "Toilet ini menyediakan bilik pria dan wanita yang terpisah, dengan fasilitas air bersih dan wastafel. Kebersihannya dijaga secara rutin demi kenyamanan pengunjung."
+        }
+      },
+      "toilettiga": {
+        "title": "Toilet di Bagian Tenggara Dekat Gapura Exit",
+        "details": {
+          "p1": "Toilet Tenggara: Berlokasi di dekat gapura keluar dan area parkir timur, toilet ini menjadi salah satu fasilitas penting di akhir jalur kunjungan.",
+          "p2": "Letaknya strategis karena dikelilingi oleh berbagai fasilitas seperti P3K (Pertolongan Pertama).",
+          "p3": "Toilet menyediakan bilik pria dan wanita yang terpisah, lengkap dengan air bersih dan wastafel. Kebersihannya dijaga secara rutin karena sering digunakan oleh pengunjung sebelum meninggalkan kawasan pura."
+        }
+      },
+      "toiletempat": {
+        "title": "Toilet Selatan Dekat Pementasan Tari Kecak",
+        "details": {
+          "p1": "Toilet Selatan: Terletak di ujung selatan kawasan Pura, dekat dengan area pementasan Tari Kecak.",
+          "p2": "Lokasinya mudah diakses dari jalur masuk dan keluar amfiteater, menjadikannya pilihan ideal bagi pengunjung sebelum atau sesudah pertunjukan.",
+          "p3": "Toilet menyediakan bilik pria dan wanita secara terpisah, dilengkapi dengan air bersih dan wastafel. Kebersihannya dijaga secara rutin demi kenyamanan bersama."
+        }
+      },
+      "toiletlima": {
+        "title": "Toilet Barat Dekat Patung Kumbakarna",
+        "details": {
+          "p1": "Toilet Barat: Terletak di sisi barat kawasan Pura, berdekatan dengan patung Kumbakarna dan berada di jalur utama yang dilalui pengunjung.",
+          "p2": "Posisinya yang berada di area tengah jalur pengunjung membuatnya mudah diakses dari berbagai arah, baik dari pintu masuk maupun dari area utara.",
+          "p3": "Fasilitas toilet ini mencakup bilik pria dan wanita terpisah, air bersih, serta wastafel. Kebersihannya dijaga untuk mendukung kenyamanan pengunjung."
+        }
+      },
+      "p3k": {
+        "title": "Pertolongan Pertama Obat-obatan",
+        "details": {
+          "p1": "Fasilitas pertolongan pertama tersedia untuk menangani luka ringan, pusing, atau kondisi darurat kecil lainnya. Terdapat kotak P3K berisi antiseptik, plester, perban, dan obat-obatan dasar seperti obat sakit kepala atau obat maag.",
+          "p2": "Jika pengunjung merasa tidak enak badan atau mengalami cedera ringan, segera hubungi petugas terdekat untuk mendapatkan bantuan medis awal.",
+          "p3": "Brosur panduan pertolongan pertama juga tersedia dalam bahasa Indonesia, Inggris, dan Mandarin untuk memudahkan pengunjung internasional."
+        }
+      },
+      "fotosatu": {
+        "title": "Spot Foto Ujung Utara Kawasan Pura",
+        "details": {
+          "p1": "Spot ini berada di sisi utara kawasan Pura Uluwatu, tepat di jalur utama yang dikelilingi pepohonan rindang dan mengarah ke tebing yang menyuguhkan pemandangan laut lepas. Suasananya tenang, dengan angin sepoi dan latar alam terbuka yang cocok untuk pengambilan foto dari berbagai sudut.",
+          "p2": "Area ini cukup luas untuk beristirahat sejenak sambil menikmati panorama sekitar sebelum melanjutkan perjalanan menyusuri kawasan pura. Kombinasi cahaya alami dan hamparan langit membuat titik ini menjadi tempat yang ideal untuk menangkap momen yang estetik dan menyegarkan."
+        }
+      },
+      "shopsatu": {
+        "title": "Warung & Suvenir Uluwatu",
+        "details": {
+          "p1": "Di area sekitar Pura Uluwatu, pengunjung dapat menemukan berbagai kios dan warung yang menjual makanan dan minuman ringan. Tersedia pilihan seperti air kelapa segar, minuman dingin, camilan lokal, hingga makanan khas Bali.",
+          "p2": "Selain kuliner, tersedia pula toko suvenir dan kerajinan tangan yang menjual beragam pernak-pernik khas Bali seperti kain, baju, aksesoris, tas anyaman, dan ukiran kayu. Tempat ini cocok untuk membeli oleh-oleh sebelum meninggalkan kawasan pura.",
+          "p3": "Beberapa kios juga menyediakan barang kebutuhan umum seperti topi, payung, dan air minum kemasan untuk kenyamanan selama berwisata."
+        }
+      },
+      "fotodua": {
+        "title": "Spot Foto Patung Danghyang Nirartha",
+        "details": {
+          "p1": "Spot ini terletak di area awal kawasan wisata, tepatnya dekat gerbang masuk (entrance) Pura Luhur Uluwatu. Di lokasi ini berdiri patung tokoh suci Danghyang Nirartha, yang dikenal sebagai tokoh penting dalam penyebaran ajaran Hindu di Bali.",
+          "p2": "Patung ini menjadi simbol spiritual dan budaya yang kuat, dan posisinya yang strategis menjadikannya salah satu titik foto pertama yang ditemui wisatawan. Latar belakangnya berupa gerbang masuk dengan elemen arsitektur Bali dan lanskap hijau yang tertata, menciptakan komposisi visual yang menarik untuk foto sambutan sebelum memulai perjalanan menjelajahi kawasan pura."
+        }
+      },
+      "fototiga": {
+        "title": "Spot Foto Area Tengah Dekat Patung Kumbakarna",
+        "details": {
+          "p1": "Spot ini berada di bagian tengah kawasan wisata, tepatnya di area terbuka yang cukup luas di sekitar patung Kumbakarna. Patung ini menggambarkan adegan pewayangan yang dramatis dan menjadi salah satu titik yang menarik perhatian pengunjung karena ukurannya yang besar dan detail ekspresifnya.",
+          "p2": "Lokasi ini kerap dijadikan titik istirahat oleh pengunjung karena memiliki ruang gerak yang lega dan pemandangan yang menarik dari berbagai arah. Dari titik ini, wisatawan bisa melanjutkan perjalanan ke arah selatan menuju spot foto depan tangga dan tugu Pura Luhur Uluwatu. Spot ini ideal untuk foto grup atau potret dengan latar belakang patung serta lingkungan taman yang sejuk dan tertata."
+        }
+      },
+      "fotoempat": {
+        "title": "Spot Foto Depan Tangga dan Tugu Pura Luhur Uluwatu",
+        "details": {
+          "p1": "Spot ini terletak di depan tangga utama yang menjadi jalur masuk menuju area utama Pura Luhur Uluwatu. Di sisi tangga terdapat sebuah tugu batu bertuliskan “Pura Luhur Uluwatu” serta papan informasi yang menjelaskan sejarah dan latar belakang pura. Penempatan elemen-elemen ini menjadikan lokasi ini sebagai salah satu titik foto paling ikonik di kawasan.",
+          "p2": "Latar belakang berupa tangga yang naik ke arah pura, dipadukan dengan nuansa arsitektur tradisional Bali dan lingkungan yang rindang, menciptakan komposisi visual yang menarik untuk foto pribadi maupun kelompok. Spot ini juga sering dijadikan titik perhentian sejenak oleh pengunjung untuk membaca informasi dan berswafoto sebelum melanjutkan ke tempat lainnya."
+        }
+      },
+      "fotolima": {
+        "title": "Spot Foto Barat Laut – Pinggir Tebing Laut",
+        "details": {
+          "p1": "Spot ini terletak di sisi barat laut kawasan pura, tepat di pinggir tebing dengan pandangan terbuka ke laut lepas. Ini adalah salah satu titik foto yang paling dramatis secara visual, karena tebing curam di sini menciptakan kesan kedalaman dan kekuatan alam yang luar biasa.",
+          "p2": "Ketika sore menjelang, cahaya matahari menyinari lautan dari arah barat, menciptakan pantulan cahaya keemasan yang indah. Banyak pengunjung memanfaatkan momen ini untuk mengambil foto siluet dengan latar matahari terbenam, tebing, dan laut yang luas. Suara ombak yang menghantam karang dari kejauhan juga menambah kesan alami dan menenangkan dari lokasi ini."
+        }
+      },
+      "fotoenam": {
+        "title": "Spot Foto Jalur Tengah dengan Latar Tebing dan Pura Utama",
+        "details": {
+          "p1": "Spot ini terletak di tengah jalur utama kawasan wisata, menghubungkan area Tari Kecak dengan bagian dalam kompleks pura. Dari sini, pengunjung bisa melihat tebing yang menjulang tinggi, struktur utama Pura Uluwatu di kejauhan, serta hamparan laut biru yang menjadi latar alami.",
+          "p2": "Sudut pandangnya memberikan komposisi yang seimbang antara alam dan budaya: tebing dramatis, arsitektur pura tradisional. Banyak wisatawan berhenti di titik ini untuk mengambil foto panorama atau selfie, karena tempat ini menawarkan perspektif visual yang memperlihatkan keindahan lokasi secara menyeluruh."
+        }
+      },
+
+      "fototujuh": {
+        "title": "Spot Foto Area Pementasan Tari Kecak (Paling Selatan)",
+        "details": {
+          "p1": "Spot ini berada di sekitar arena pertunjukan Tari Kecak, salah satu atraksi budaya paling terkenal di Pura Uluwatu. Lokasinya berada di ujung selatan kawasan, tidak jauh dari tebing yang menghadap langsung ke Samudra Hindia. Di titik ini, pengunjung dapat mengambil foto dengan latar panggung terbuka, langit jingga saat senja, dan lautan lepas yang membentang luas di kejauhan.",
+          "p2": "Waktu terbaik untuk berfoto di sini adalah menjelang matahari terbenam, saat sorotan cahaya sore memperkuat suasana dramatis di sekitar tebing dan panggung. Ini adalah tempat favorit bagi wisatawan yang ingin mengabadikan momen dengan sentuhan budaya Bali yang kuat dan panorama laut yang memukau."
+        }
+      }
+
   }
+
+
 
 
 

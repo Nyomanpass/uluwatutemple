@@ -10,25 +10,34 @@
   "footer": {
     "description": "Discover the legendary Uluwatu Temple in Bali, perched on a stunning cliff with breathtaking ocean views.",
     "contact": {
-      "admin1": "+62 8123 6937 4779 (admin 1)",
-      "admin2": "+62 8232 2769 6969 (admin 2)",
+      "admin1": "+62 8123 6937 479 (admin 1)",
+      "admin2": "+62 8232 7696 969 (admin 2)",
       "email": "info@uluwatutemple.id"
     },
-    "pagesTitle": "OUR PAGES",
+      "pagesTitle": "OUR PAGES",
+  "pagesContact": "CONTACT US",
+  "pagesName": "ULUWATU LUHUR TEMPLE",
     "pages": {
       "anchor1": "About Us",
       "anchor2": "Visit Info",
       "anchor3": "Cultural Events",
       "anchor4": "Gallery"
     },
-    "copyright": "© copyright 2025 Uluwatu Temple. All Rights Reserved.",
-    "poweredBy": "Powered By Bomboraweb"
+    "copyright": "© copyright 2025 Uluwatu Temple. All Rights Reserved."
   },
 
   "home": {
     "hero": {
       "title": "Welcome to Uluwatu Temple",
-      "description": "Discover the spiritual beauty and stunning cliffside views of Uluwatu. We invite you to explore the traditions, culture, and sacred atmosphere of one of Bali’s most iconic temples."
+      "titlesatu": "Clothing Guidelines for Visitors",
+      "titledua": "Enjoy the Kecak Dance Performance",
+      "description": "Discover the spiritual beauty and breathtaking cliffside views of Uluwatu. We invite you to explore the traditions, culture, and sacred atmosphere of one of Bali’s most iconic temples.",
+      "descriptionsatu": "For everyone's comfort, please follow the temple dress code. Visitors wearing long pants may wear a *senteng*, while those in shorts are required to wear a *kamben*.",
+      "descriptiondua": "A captivating Balinese performance set against the backdrop of a sunset. Experience it daily at the performance area.",
+      "buttonTextsatu": "Explore More",
+      "buttonTextdua": "View Tutorial",
+      "buttonTexttiga": "See Dance Schedule"
+
     },
     "openingHours": {
       "title": "OPENING HOURS",
@@ -44,7 +53,7 @@
     },
     "section": {
       "title": "Exploring the Charms of Culture and Natural Beauty",
-      "paragraph": "Welcome to Uluwatu, a gem on the southern tip of Bali that blends the stunning beauty of ocean cliffs with the rich spirituality of ancient temples. It is here, amidst a breathtaking sunset panorama, that you can witness the legendary Kecak Dance performance, an unforgettable cultural experience. Dive deeper into the charm of Uluwatu and discover why this place has become one of the most sacred and iconic destinations on the Island of the Gods.",
+      "paragraph": "Welcome to Uluwatu, a gem at the southern tip of Bali that blends breathtaking sea cliffs with the deep spirituality of an ancient temple. Here, you can witness the legendary Kecak Dance performance set against a stunning sunset panorama — a truly unforgettable cultural experience. Dive deeper into the charm of Uluwatu and discover why it’s one of the most popular and iconic destinations on the Island of the Gods.",
       "button": "Learn More"
     }
   },
@@ -243,7 +252,7 @@
 
   "prewedding": {
     "title": "PREWEDDING & PHOTOGRAPHY",
-    "subtitle": "Capture Your Dream Wedding Moments in Uluwatu & Labuan Sait",
+    "subtitle": "This service is intended for pre-wedding, personal, or commercial photo sessions only — not for wedding ceremonies or receptions.",
 
     "whyTitle": "Why Choose Uluwatu & Labuan Sait for Your Prewedding Photoshoot?",
     "whyDescription": "Bali is a dream destination for couples looking for stunning prewedding photography locations, and Uluwatu Temple and Labuan Sait Beach stand out as two of the most breathtaking backdrops. With their majestic cliffs, golden sunsets, and rich cultural heritage, these locations provide an unforgettable setting for capturing love stories.",
@@ -280,21 +289,137 @@
     "note": "This information is subject to change.",
     "contacts": [
       {
-        "role": "Temple Security",
-        "name": "Mr. Wayan",
-        "phone": "+62 812-3456-7890",
-        "description": "For security issues around the temple area."
+        "role": "Hotline Service",
+        "phone": "+62 8232 7696 969"
       },
       {
-        "role": "Tour Guide",
-        "name": "Mrs. Ayu",
-        "phone": "+62 813-1234-5678",
-        "description": "Contact if you need a local tour guide."
+        "role": "Uluwatu Temple Management",
+        "phone": "+62 8123 6937 479"
       }
+
     ]
+  },
+
+  "datamap":{
+      "taxi": 
+        {
+          "title": "Parking Area",
+          "details": {
+            "p1": "This area serves as the main parking lot for visitors of Uluwatu Temple. Located not far from the entrance, it is spacious enough to accommodate both two-wheeled and four-wheeled vehicles.",
+            "p2": "The parking area tends to be crowded, especially during peak visiting hours. From here, visitors can continue their journey to the main temple area by walking along the designated path.",
+            "p3": "Around the parking lot, there are several information boards and staff members who help direct vehicles to keep the area orderly and safe."
+          }
+        },
+        "toiletsatu": {
+          "title": "Toilet Facilities in the Parking Area of Uluwatu Temple",
+          "details": {
+            "p1": "Toilets are available in the parking area and can be used by all visitors to Uluwatu Temple.",
+            "p2": "They are located near the main entrance and marked with clear signage. Separate toilets are provided for men and women to ensure comfort and cleanliness.",
+            "p3": "Facilities inside include clean water, hand-washing sinks, and trash bins that are regularly cleaned by staff."
+          }
+        },
+        "toiletdua": {
+          "title": "Toilet on the Northern Side of Uluwatu Temple Area",
+          "details": {
+            "p1": "The northern toilet is located on the northern side of the temple complex, separate from the main parking area.",
+            "p2": "It is situated at the end of the northern visitor path, near the viewpoint and exit route.",
+            "p3": "This facility provides separate stalls for men and women, equipped with clean water and sinks. Cleanliness is maintained regularly for visitors' comfort."
+          }
+        },
+        "toilettiga": {
+          "title": "Southeast Toilet Near Exit Gate",
+          "details": {
+            "p1": "Southeast Toilet: Located near the exit gate and east parking area, this facility is important for visitors at the end of their visit.",
+            "p2": "Its strategic location is surrounded by other amenities such as First Aid (P3K).",
+            "p3": "The toilet provides separate stalls for men and women, with clean water and sinks. It is cleaned regularly as it is often used before leaving the temple grounds."
+          }
+        },
+        "toiletempat": {
+          "title": "South Toilet Near Kecak Dance Performance",
+          "details": {
+            "p1": "South Toilet: Located at the southern end of the temple area, near the Kecak dance performance stage.",
+            "p2": "The location is easily accessible from the entrance and exit of the amphitheater, making it an ideal choice for visitors before or after the show.",
+            "p3": "The toilet provides separate stalls for men and women, equipped with clean water and sinks. Cleanliness is maintained regularly for everyone's comfort."
+          }
+        },
+        "toiletlima": {
+          "title": "West Toilet Near the Kumbakarna Statue",
+          "details": {
+            "p1": "West Toilet: Located on the western side of the temple complex, close to the Kumbakarna statue and along the main path used by visitors.",
+            "p2": "Its position in the middle section of the visitor route makes it easily accessible from various directions, including the entrance and northern areas.",
+            "p3": "This toilet facility includes separate stalls for men and women, clean water, and sinks. Cleanliness is maintained to ensure visitor comfort."
+          }
+        },
+        "p3k": {
+          "title": "First Aid and Medication",
+          "details": {
+            "p1": "First aid facilities are available to treat minor injuries, dizziness, or other minor emergencies. The first aid kit contains antiseptics, bandages, plasters, and basic medications such as painkillers or antacids.",
+            "p2": "If visitors feel unwell or suffer minor injuries, they should contact the nearest staff member for initial medical assistance.",
+            "p3": "First aid guide brochures are also available in Indonesian, English, and Mandarin to assist international visitors."
+          }
+        },
+        "fotosatu": {
+          "title": "Photo Spot at the Northern Tip of the Temple Area",
+          "details": {
+            "p1": "This spot is located on the northern side of the Uluwatu Temple area, right along the main path surrounded by shady trees and leading to cliffs overlooking the open sea. The atmosphere is calm, with a gentle breeze and a natural backdrop perfect for photography from multiple angles.",
+            "p2": "The area is spacious enough to take a short break while enjoying the surrounding scenery before continuing your walk around the temple grounds. The combination of natural light and open sky makes it an ideal place to capture refreshing and aesthetic moments."
+          }
+        },
+        "shopsatu": {
+          "title": "Uluwatu Food Stalls & Souvenirs",
+          "details": {
+            "p1": "Around the Uluwatu Temple area, visitors can find various stalls and food vendors offering snacks and refreshing drinks. Options include fresh coconut water, cold beverages, local snacks, and Balinese specialties.",
+            "p2": "In addition to food, souvenir and handicraft shops sell traditional Balinese items such as fabrics, clothes, accessories, woven bags, and wood carvings. This is a great spot to pick up souvenirs before leaving the temple area.",
+            "p3": "Some stalls also offer basic necessities such as hats, umbrellas, and bottled water for a more comfortable visit."
+          }
+        },
+        "fotodua": {
+          "title": "Photo Spot: Danghyang Nirartha Statue",
+          "details": {
+            "p1": "This spot is located at the entrance of the tourist area, near the main gate of Pura Luhur Uluwatu. Here stands the statue of the holy figure Danghyang Nirartha, known for spreading Hindu teachings in Bali.",
+            "p2": "The statue symbolizes strong spiritual and cultural values. Its strategic location makes it one of the first photo stops for visitors. With the traditional Balinese entrance gate and lush greenery in the background, it offers a visually appealing welcome photo opportunity before exploring the temple complex."
+          }
+        },
+        "fototiga": {
+          "title": "Photo Spot in the Central Area Near the Kumbakarna Statue",
+          "details": {
+            "p1": "This spot is located in the central part of the tourist area, specifically in a fairly spacious open area around the Kumbakarna statue. This statue depicts a dramatic scene from the Ramayana epic and draws visitors' attention due to its large size and expressive details.",
+            "p2": "This location is often used as a resting point by visitors because it offers ample space and scenic views from various angles. From here, tourists can continue their journey southward to the photo spot in front of the stairs and the monument of Pura Luhur Uluwatu. This spot is ideal for group photos or portraits with the statue and the lush, well-maintained garden as the background."
+          }
+        },
+        "fotoempat": {
+          "title": "Photo Spot in Front of the Stairs and Pura Luhur Uluwatu Monument",
+          "details": {
+            "p1": "This photo spot is located in front of the main stairs leading to the central area of Pura Luhur Uluwatu. Beside the stairs stands a stone monument engraved with “Pura Luhur Uluwatu” and an information board explaining the temple’s history and background. These elements make it one of the most iconic photo points in the area.",
+            "p2": "The background features the ascending staircase leading to the temple, combined with traditional Balinese architecture and a shady environment, creating a visually appealing setting for both solo and group photos. Visitors often pause here to read the information and take selfies before continuing their exploration."
+          }
+        },
+
+        "fotolima": {
+          "title": "Northwest Photo Spot – Cliffside by the Ocean",
+          "details": {
+            "p1": "This spot is located on the northwest side of the temple area, right on the edge of the cliff with an open view of the open sea. It is one of the most visually dramatic photo points, as the steep cliff here creates a sense of depth and the powerful force of nature.",
+            "p2": "In the late afternoon, sunlight shines across the sea from the west, creating a beautiful golden reflection. Many visitors use this moment to capture silhouette photos with a backdrop of the sunset, cliffs, and vast ocean. The sound of waves crashing against the rocks in the distance adds a natural and calming touch to this location."
+          }
+        },
+          "fotoenam": {
+            "title": "Photo Spot at Central Pathway with Cliff and Main Temple View",
+            "details": {
+              "p1": "This spot is located in the middle of the main tourist pathway, connecting the Kecak Dance area with the inner temple complex. From here, visitors can see towering cliffs, the main structure of Uluwatu Temple in the distance, and the vast blue ocean as a natural backdrop.",
+              "p2": "The vantage point offers a balanced composition of nature and culture: dramatic cliffs and traditional temple architecture. Many tourists stop here to take panoramic photos or selfies, as the location provides a complete visual perspective of the site's beauty."
+            }
+          },
+      "fototujuh": {
+        "title": "Photo Spot at Kecak Dance Performance Area (Southernmost Point)",
+        "details": {
+          "p1": "This spot is located near the Kecak Dance performance arena, one of the most iconic cultural attractions at Uluwatu Temple. Situated at the southern tip of the area, it is close to cliffs that face directly into the Indian Ocean. Visitors can capture photos with the open-air stage, orange sunset sky, and vast ocean in the background.",
+          "p2": "The best time to take photos here is during sunset, when the soft evening light adds dramatic atmosphere to the cliffs and stage. This is a favorite spot for tourists wanting to capture moments with a strong Balinese cultural vibe and stunning ocean views."
+        }
+      }
+
+      
   }
 
-  
 
 
 }

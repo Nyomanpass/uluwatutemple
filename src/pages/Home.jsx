@@ -10,55 +10,25 @@ import {
   Info,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import HeroSlider from "../components/HeroSlider";
 
 function Home() {
   const { t } = useTranslation();
 
   return (
     <>
+        <a href="https://wa.me/6281236937479" target="_blank"
+            className="fixed bottom-6 right-6 z-50 text-white animate-bounce focus:outline-none transition duration-300">
+            <div className="flex gap-2 items-center">
+                <img src="/logowa.png" alt="WhatsApp Icon" className="w-12 md:w-14"/>
+            </div>
+        </a>
       <Navbar />
 
-      {/* Hero Section */}
-      <div className="relative w-full h-[70vh]">
-        <picture>
-          <source srcSet="/hometiga.jpeg" media="(min-width: 768px)" />
-          <img
-            src="/homedua.jpeg"
-            alt="Kecak Dance"
-            className="w-full h-full object-cover"
-          />
-        </picture>
-
-        <div className="absolute inset-0 bg-black/40" />
-        <div
-          className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6"
-          data-aos="fade-up"
-        >
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
-            {t("home.hero.title")}
-          </h1>
-          <p className="text-base text-[.8rem] md:text-xl max-w-2xl drop-shadow-md">
-            {t("home.hero.description")}
-          </p>
-        </div>
-        <div className="absolute bottom-0 left-0 right-0 overflow-hidden leading-[0]">
-          <svg
-            className="relative block w-full h-[80px]"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1440 320"
-            preserveAspectRatio="none"
-          >
-            <path
-              fill="#ffffff"
-              fillOpacity="1"
-              d="M0,160 C360,0 1080,320 1440,160 L1440,320 L0,320 Z"
-            ></path>
-          </svg>
-        </div>
-      </div>
-
+      <HeroSlider/>
+  
       {/* Main Content */}
-      <div className="bg-white rounded-t-3xl p-4 mb-14 max-w-6xl mx-auto">
+      <div id="maincontent" className="bg-white rounded-t-3xl p-4 mb-14 max-w-6xl mx-auto">
         {/* Opening Hours */}
         <div
           className="bg-secondary text-white p-4 rounded-xl flex items-center gap-3 mb-6"

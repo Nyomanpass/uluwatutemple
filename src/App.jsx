@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
+import './app.css';
 
 import Map from './pages/map';
 import Home from './pages/Home';
@@ -9,10 +10,15 @@ import Rules from './pages/Rules';
 import Kecak from './pages/Kecak';
 import Contact from './pages/Contact';
 import Prewedding from './pages/Prewedding';
+import Tutorial from './pages/Tutorial';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
 
 export default function App() {
     useEffect(() => {
-      AOS.init({ duration: 1000 }); // animasi berjalan 1 detik
+      AOS.init({ duration: 1000 });
     }, []);
 
   return (
@@ -25,6 +31,7 @@ export default function App() {
            <Route path='/kecak-schedule' element={<Kecak/>}/>
            <Route path='/urgent-contact' element={<Contact/>}/>
            <Route path='/venuerental' element={<Prewedding/>}/>
+           <Route path='/tutorial' element={<Tutorial/>}/>
         </Routes>
       </Router>
    </>

@@ -4,6 +4,8 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import BottomSheet from './BottomSheet'; // Import komponen BottomSheet
 import { GetLocations } from '../data/LocationsData'
+import { useTranslation } from "react-i18next";
+
 
 const mapImage = '/denah_uluwatu.png';
 
@@ -25,11 +27,13 @@ function FitBounds({ bounds }) {
   return null;
 }
 
-export default function CustomMap() {
+export default function CustomMap({onBottomSheetChange}) {
   const [imageBounds, setImageBounds] = useState(null);
   const [isBottomSheetOpen, setIsBottomSheetOpen] = useState(false);
   const [selectedPlace, setSelectedPlace] = useState(null); 
   const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const { t } = useTranslation();
+
 
   const togglePopup = () => {
     setIsPopupOpen(!isPopupOpen);
@@ -55,24 +59,17 @@ export default function CustomMap() {
   }, []);
 
 
-  const isMobile = () => window.innerWidth < 768; 
+const handleMarkerClick = (placeData) => {
+  setSelectedPlace(placeData);
+  setIsBottomSheetOpen(true); // Buka langsung untuk semua device
+  onBottomSheetChange?.(true);
+};
 
-  const handleMarkerClick = (placeData, markerRef) => {
-    setSelectedPlace(placeData);
-
-    if (isMobile()) {
-      setIsBottomSheetOpen(true);
-    } else {
-      
-      if (markerRef.current) {
-        markerRef.current.openPopup();
-      }
-    }
-  };
 
   const closeBottomSheet = () => {
     setIsBottomSheetOpen(false);
     setSelectedPlace(null);
+    onBottomSheetChange?.(false); 
   };
 
   if (!imageBounds) {
@@ -83,10 +80,11 @@ export default function CustomMap() {
     );
   }
 
- const locations = GetLocations(imageBounds)
+ const locations = GetLocations(imageBounds, t)
 
   return (
     <div className="w-full h-screen rounded-lg overflow-hidden shadow-lg">
+      
       <MapContainer
         crs={L.CRS.Simple}
         bounds={imageBounds}
@@ -120,11 +118,6 @@ export default function CustomMap() {
             }}
           >
             
-            <Popup className="hidden md:block">
-              <p className="font-semibold text-lg">{loc.title}</p>
-              <p className="text-sm">{loc.description}</p>
-              {loc.details}
-            </Popup>
           </Marker>
         ))}
       </MapContainer>
