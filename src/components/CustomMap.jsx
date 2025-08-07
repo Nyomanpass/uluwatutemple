@@ -123,7 +123,7 @@ const handleMarkerClick = (placeData) => {
       </MapContainer>
 
      
-      <div className="absolute bottom-4 left-4 w-40 h-28 md:w-72 md:h-56 z-[998] border-2 border-white shadow-lg rounded overflow-hidden" 
+      <div className="fixed bottom-6 left-6 z-50 w-40 h-28 md:w-72 md:h-56 z-[998] border-2 border-white shadow-lg rounded overflow-hidden" 
       onClick={togglePopup}>
         <img
           src="/denah_uluwatu.png"
