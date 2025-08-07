@@ -43,6 +43,13 @@ export const foto = new L.Icon({
   popupAnchor: [0, -30],
 });
 
+export const ticket = new L.Icon({
+  iconUrl: '/icons/tiket.png',
+  iconSize: [50, 50],
+  iconAnchor: [15, 30],
+  popupAnchor: [0, -30],
+});
+
 export const toilet = new L.Icon({
   iconUrl: '/icons/toilet.png',
   iconSize: [50, 50],

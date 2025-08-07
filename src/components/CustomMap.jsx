@@ -89,7 +89,7 @@ const handleMarkerClick = (placeData) => {
         crs={L.CRS.Simple}
         bounds={imageBounds}
         zoom={0}
-        minZoom={-3} 
+        minZoom={-0.6} 
         maxZoom={2} 
         maxBounds={imageBounds}
         maxBoundsViscosity={1.0}
@@ -97,7 +97,7 @@ const handleMarkerClick = (placeData) => {
           width: '100%',
           height: '100%',
         
-          background: 'linear-gradient(to bottom, #2fa1ca, #23883d)',
+          background: 'linear-gradient(to bottom, #00a2e8,rgb(104, 172, 83))',
           borderRadius: 0 
         }}
         zoomControl={false}

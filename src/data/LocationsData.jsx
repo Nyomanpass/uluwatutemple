@@ -1,5 +1,5 @@
 // src/data/locationsData.js
-import { atm, atmIcon, carIcon, shop, p3k, foto, toilet } from '../utils/CustomIcons';
+import { atm, atmIcon, carIcon, shop, p3k, foto, toilet, ticket } from '../utils/CustomIcons';
 
 export const GetLocations = (imageBounds, t) => {
 
@@ -9,7 +9,7 @@ export const GetLocations = (imageBounds, t) => {
     //car taxi
     {
     id: 'taxi',
-    position: [imageBounds[1][0] * 0.42, imageBounds[1][1] * 0.75],
+    position: [imageBounds[1][0] * 0.49, imageBounds[1][1] * 0.85],
     title: t("datamap.taxi.title"),
     icon: carIcon,
     details: (
@@ -25,7 +25,7 @@ export const GetLocations = (imageBounds, t) => {
     //toilet ada 5 toilet
      {
     id: 'toiletsatu',
-    position: [imageBounds[1][0] * 0.60, imageBounds[1][1] * 0.79],
+    position: [imageBounds[1][0] * 0.57, imageBounds[1][1] * 0.80],
     title: t("datamap.toiletsatu.title"),
     icon: toilet,
     details: (
@@ -41,7 +41,7 @@ export const GetLocations = (imageBounds, t) => {
 
     {
     id: 'toiletdua',
-    position: [imageBounds[1][0] * 0.77, imageBounds[1][1] * 0.90],
+    position: [imageBounds[1][0] * 0.73, imageBounds[1][1] * 0.92],
     title: t("datamap.toiletdua.title"),
     icon: toilet,
     details: (
@@ -57,7 +57,7 @@ export const GetLocations = (imageBounds, t) => {
 
     {
     id: 'toilettiga',
-    position: [imageBounds[1][0] * 0.23, imageBounds[1][1] * 0.47],
+    position: [imageBounds[1][0] * 0.32, imageBounds[1][1] * 0.57],
     title: t("datamap.toilettiga.title"),
     icon: toilet,
     details: (
@@ -72,7 +72,7 @@ export const GetLocations = (imageBounds, t) => {
 
     {
     id: 'toiletempat',
-    position: [imageBounds[1][0] * 0.35, imageBounds[1][1] * 0.07],
+    position: [imageBounds[1][0] * 0.34, imageBounds[1][1] * 0.23],
     title: t("datamap.toiletempat.title"),
     icon: toilet,
     details: (
@@ -87,7 +87,7 @@ export const GetLocations = (imageBounds, t) => {
 
      {
     id: 'toiletlima',
-    position: [imageBounds[1][0] * 0.73, imageBounds[1][1] * 0.50],
+    position: [imageBounds[1][0] * 0.69, imageBounds[1][1] * 0.57],
     title: t("datamap.toiletlima.title"),
     icon: toilet,
     details: (
@@ -105,7 +105,7 @@ export const GetLocations = (imageBounds, t) => {
     //p3k
     {
     id: 'p3k',
-    position: [imageBounds[1][0] * 0.26, imageBounds[1][1] * 0.44],
+    position: [imageBounds[1][0] * 0.32, imageBounds[1][1] * 0.54],
     title: t("datamap.p3k.title"),
     icon: p3k,
     details: (
@@ -121,7 +121,7 @@ export const GetLocations = (imageBounds, t) => {
     //shop
      {
     id: 'shopsatu',
-    position: [imageBounds[1][0] * 0.35, imageBounds[1][1] * 0.55],
+    position: [imageBounds[1][0] * 0.39, imageBounds[1][1] * 0.69],
     title: t("datamap.shopsatu.title"),
     icon: shop,
    details: (
@@ -137,7 +137,7 @@ export const GetLocations = (imageBounds, t) => {
 
     {
     id: 'fotosatu',
-    position: [imageBounds[1][0] * 0.80, imageBounds[1][1] * 0.87],
+    position: [imageBounds[1][0] * 0.74, imageBounds[1][1] * 0.89],
     title: t("datamap.fotosatu.title"),
     icon: foto,
     details: (
@@ -151,7 +151,7 @@ export const GetLocations = (imageBounds, t) => {
 
     {
     id: 'fotodua',
-    position: [imageBounds[1][0] * 0.65, imageBounds[1][1] * 0.66],
+    position: [imageBounds[1][0] * 0.62, imageBounds[1][1] * 0.71],
      title: t("datamap.fotodua.title"),
     icon: foto,
     details: (
@@ -166,7 +166,7 @@ export const GetLocations = (imageBounds, t) => {
 
     {
     id: 'fototiga',
-    position: [imageBounds[1][0] * 0.65, imageBounds[1][1] * 0.50],
+    position: [imageBounds[1][0] * 0.60, imageBounds[1][1] * 0.58],
     title: t("datamap.fototiga.title"),
     icon: foto,
     details: (
@@ -180,7 +180,7 @@ export const GetLocations = (imageBounds, t) => {
 
     {
     id: 'fotoempat',
-    position: [imageBounds[1][0] * 0.63, imageBounds[1][1] * 0.37],
+    position: [imageBounds[1][0] * 0.57, imageBounds[1][1] * 0.45],
      title: t("datamap.fotoempat.title"),
     icon: foto,
     details: (
@@ -195,7 +195,7 @@ export const GetLocations = (imageBounds, t) => {
 
     {
     id: 'fotolima',
-    position: [imageBounds[1][0] * 0.77, imageBounds[1][1] * 0.38],
+    position: [imageBounds[1][0] * 0.69, imageBounds[1][1] * 0.45],
     title: t("datamap.fotolima.title"),
     icon: foto,
     details: (
@@ -209,7 +209,7 @@ export const GetLocations = (imageBounds, t) => {
 
     {
     id: 'fotoenam',
-    position: [imageBounds[1][0] * 0.47, imageBounds[1][1] * 0.19],
+    position: [imageBounds[1][0] * 0.42, imageBounds[1][1] * 0.30],
     title: t("datamap.fotoenam.title"),
     icon: foto,
     details: (
@@ -223,7 +223,7 @@ export const GetLocations = (imageBounds, t) => {
 
      {
     id: 'fototujuh',
-    position: [imageBounds[1][0] * 0.41, imageBounds[1][1] * 0.05],
+    position: [imageBounds[1][0] * 0.32, imageBounds[1][1] * 0.10],
     title: t("datamap.fototujuh.title"),
     icon: foto,
     details: (
@@ -234,6 +234,21 @@ export const GetLocations = (imageBounds, t) => {
     ),
     images: ['/gambarmap/fotoselatansatu.jpg', '/gambarmap/fotoselatandua.jpg', '/gambarmap/fotoselatantiga.jpg', '/gambarmap/fotoselatanempat.jpg']
     },
+
+    {
+    id: 'ticketcounter',
+    position: [imageBounds[1][0] * 0.47, imageBounds[1][1] * 0.62],
+    title: t("datamap.fototujuh.title"),
+    icon: ticket,
+    details: (
+        <div>
+            <p>{t("datamap.fototujuh.details.p1")}</p>
+            <p>{t("datamap.fototujuh.details.p2")}</p>
+        </div>
+    ),
+    images: ['/gambarmap/fotoselatansatu.jpg', '/gambarmap/fotoselatandua.jpg', '/gambarmap/fotoselatantiga.jpg', '/gambarmap/fotoselatanempat.jpg']
+    },
+
 
   ];
 };
