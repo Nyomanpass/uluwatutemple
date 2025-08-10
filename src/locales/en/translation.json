@@ -428,9 +428,68 @@
           "p1": "This spot is located near the Kecak Dance performance arena, one of the most iconic cultural attractions at Uluwatu Temple. Situated at the southern tip of the area, it is close to cliffs that face directly into the Indian Ocean. Visitors can capture photos with the open-air stage, orange sunset sky, and vast ocean in the background.",
           "p2": "The best time to take photos here is during sunset, when the soft evening light adds dramatic atmosphere to the cliffs and stage. This is a favorite spot for tourists wanting to capture moments with a strong Balinese cultural vibe and stunning ocean views."
         }
-      }
+      },
 
+      "ticketcenter": {
+        "title": "Ticket Counter & Entrance to Pura Uluwatu Area",
+        "details": {
+          "p1": "This is the first point that visitors will encounter before entering the Uluwatu Temple area. Here, you’ll find the ticket counter for purchasing entrance passes, as well as the distribution point for sarongs and sashes (kamben and senteng), which are required to be worn as a sign of respect for the sacred temple grounds.",
+          "p2": "This area also serves as the main entrance that guides visitors to various paths within the temple complex, including the Kecak Dance performance area, scenic cliffside photo spots, and the main temple itself. Staff will check tickets and ensure that all visitors are wearing the proper traditional attire before entering the main area."
+        }
+      },
+
+      "monyetputih": {
+        "title": "Albino White Monkey in the Uluwatu Area",
+        "details": {
+          "p1": "The white monkey is the only known albino monkey in the Uluwatu area. Unlike the common monkeys in Uluwatu, it has white fur covering its entire body. This monkey was first spotted at Pura Selonding (about 2 km from Uluwatu Temple) in 2019 and is estimated to have been born around 2014.",
+          "p2": "When it was first found, the white monkey was badly injured after being attacked by other monkeys. It is believed the attack happened due to its unusual appearance.",
+          "p3": "This white monkey was not accepted by any monkey group or clan in the area. After undergoing extensive medical treatment and fully recovering, it was placed in a special enclosure.",
+          "p4": "This quarantine was done to protect the white monkey from further attacks and to ensure the survival of this rare albino monkey in Uluwatu."
+        }
+      },
+
+       "panggungkecak": {
+          "title": "Kecak Dance Performance Stage at Uluwatu",
+          "details": {
+            "p1": "The Kecak dance stage at Uluwatu is perched on a cliff, facing directly toward the Indian Ocean. This location offers a breathtaking backdrop, featuring the silhouette of the main Uluwatu Temple in the distance and a golden sky at sunset that adds a magical touch to the performance.",
+            "p2": "Every evening at twilight, visitors from all over gather to witness the Ramayana story brought to life through the rhythmic 'cak' chants of dozens of male performers. The dramatic natural setting—Indian Ocean waves, steep cliffs, and sunset light—makes this stage one of Bali’s most iconic cultural experiences."
+          }
+        },
+
+        "patungkumbhakarna": {
+          "title": "Kumba Karna Kerebut Statue at Uluwatu Temple",
+          "details": {
+            "p1": "The Kumba Karna Kerebut statue at Uluwatu Temple portrays Kumbakarna, a legendary warrior from the Hindu epic Ramayana. Known for his immense strength and unshakable loyalty, Kumbakarna fought against Rama not out of evil, but out of a sense of duty. The statue represents sacrifice, devotion, and moral integrity—values deeply upheld in Balinese Hindu teachings.",
+            "p2": "Set against Uluwatu’s dramatic cliffs, the statue is often associated with the sacred monkeys that inhabit the temple grounds. The intricate carvings bring to life the battle between Kumbakarna and the Vanara army, blending mythology with the natural beauty of the surroundings, making it a significant cultural and spiritual landmark."
+          }
+        },
+
+        "danghyangnirartha": {
+          "title": "Danghyang Nirartha Statue at Uluwatu Temple",
+          "details": {
+            "p1": "The Danghyang Nirartha Statue honors one of Bali’s most revered Hindu priests, Danghyang Nirartha, who played a crucial role in shaping Balinese Hinduism in the 16th century. He is credited with founding several major temples, including Pura Uluwatu, where he is believed to have attained moksha (spiritual liberation) through deep meditation on the temple’s cliffs.",
+            "p2": "The statue, depicted in a serene meditative pose, represents wisdom, enlightenment, and spiritual guidance. As a key figure in Balinese religious history, Nirartha’s influence is still felt today in temple rituals and traditional ceremonies, making his statue a place of reverence and reflection for visitors."
+          }
+        }
       
+  },
+
+  "tutorial":{
+    "title":"Wear sarong if you wear shorts, wear sash if you wear trousers / long dress",
+    "sarung": "How to wear sarong",
+    "selendang": "How to wear sash",
+    "stepsSarong": [
+      "Hold the tip of the sarong",
+      "Tie both ends",
+      "Tie it once again so it will not come loose",
+      "Finished"
+    ],
+    "stepsSash": [
+      "Hold the tip of the sash",
+      "Tie both ends",
+      "Tie it once again so it will not come loose",
+      "Finished"
+    ]
   }
 
 

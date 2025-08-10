@@ -132,6 +132,15 @@ const handleMarkerClick = (placeData) => {
         />
       </div>
 
+      <div className="fixed top-29 left-6 z-50 z-[998] border-2 border-white shadow-lg rounded-full overflow-hidden" 
+      onClick={togglePopup}>
+        <img
+          src="/mataangin.png"
+          alt="Mini Map"
+          className="w-[75px] h-[75px] object-cover"
+        />
+      </div>
+
 
       {isPopupOpen && (
         <div className="fixed inset-0 z-[999] bg-black/70 bg-opacity-60 flex items-center justify-center">

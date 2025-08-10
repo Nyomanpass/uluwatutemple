@@ -1,5 +1,5 @@
 // src/data/locationsData.js
-import { atm, atmIcon, carIcon, shop, p3k, foto, toilet, ticket } from '../utils/CustomIcons';
+import { atm, atmIcon, carIcon, shop, p3k, foto, toilet, ticket, kumbakarna, rsi, panggung, monkey } from '../utils/CustomIcons';
 
 export const GetLocations = (imageBounds, t) => {
 
@@ -238,16 +238,79 @@ export const GetLocations = (imageBounds, t) => {
     {
     id: 'ticketcounter',
     position: [imageBounds[1][0] * 0.47, imageBounds[1][1] * 0.62],
-    title: t("datamap.fototujuh.title"),
+    title: t("datamap.ticketcenter.title"),
     icon: ticket,
     details: (
         <div>
-            <p>{t("datamap.fototujuh.details.p1")}</p>
-            <p>{t("datamap.fototujuh.details.p2")}</p>
+            <p>{t("datamap.ticketcenter.details.p1")}</p>
+            <p>{t("datamap.ticketcenter.details.p2")}</p>
         </div>
     ),
-    images: ['/gambarmap/fotoselatansatu.jpg', '/gambarmap/fotoselatandua.jpg', '/gambarmap/fotoselatantiga.jpg', '/gambarmap/fotoselatanempat.jpg']
+    images: ['/gambarmap/git.jpg', '/gambarmap/gitsatu.jpg', '/gambarmap/gitdua.jpg', '/gambarmap/gittiga.jpg']
     },
+
+
+      {
+    id: 'monyetputih',
+    position: [imageBounds[1][0] * 0.53, imageBounds[1][1] * 0.55],
+    title: t("datamap.monyetputih.title"),
+    icon: monkey,
+    details: (
+        <div>
+            <p>{t("datamap.monyetputih.details.p1")}</p>
+            <p>{t("datamap.monyetputih.details.p2")}</p>
+            <p>{t("datamap.monyetputih.details.p3")}</p>
+            <p>{t("datamap.monyetputih.details.p4")}</p>
+        </div>
+    ),
+    images: ['/gambarmap/monyetsatu.jpg', '/gambarmap/monyetdua.jpg', '/gambarmap/monyettiga.jpg', '/gambarmap/monyetempat.jpg']
+    },
+
+     {
+    id: 'patung',
+    position: [imageBounds[1][0] * 0.67, imageBounds[1][1] * 0.75],
+     title: t("datamap.danghyangnirartha.title"),
+    icon: rsi,
+    details: (
+        <div>
+            <p>{t("datamap.danghyangnirartha.details.p1")}</p>
+            <p>{t("datamap.danghyangnirartha.details.p2")}</p>
+        </div>
+    ),
+    images: ['/gambarmap/patungsatu.jpg', '/gambarmap/patungdua.jpg', '/gambarmap/patungtiga.jpg', '/gambarmap/patungempat.jpg']
+    },
+
+     {
+    id: 'kumbakarna',
+    position: [imageBounds[1][0] * 0.68, imageBounds[1][1] * 0.62],
+    title: t("datamap.patungkumbhakarna.title"),
+    icon: kumbakarna,
+    details: (
+       <div>
+            <p>{t("datamap.patungkumbhakarna.details.p1")}</p>
+            <p>{t("datamap.patungkumbhakarna.details.p2")}</p>
+        </div>
+    ),
+    images: ['/gambarmap/kumbakarnasatu.jpg', '/gambarmap/kumbakarnadua.jpg', '/gambarmap/kumbakarnatiga.jpg', '/gambarmap/kumbakarnaempat.jpg']
+    },
+
+        {
+    id: 'panggung',
+    position: [imageBounds[1][0] * 0.33, imageBounds[1][1] * 0.32],
+    title: t("datamap.panggungkecak.title"),
+    icon: panggung,
+    details: (
+        <div>
+            <p>{t("datamap.panggungkecak.details.p1")}</p>
+            <p>{t("datamap.panggungkecak.details.p2")}</p>
+        </div>
+    ),
+    images: ['/gambarmap/panggungsatu.jpg', '/gambarmap/panggungdua.jpg', '/gambarmap/panggungtiga.jpg', '/gambarmap/panggungempat.jpg']
+    },
+
+    
+
+
 
 
   ];

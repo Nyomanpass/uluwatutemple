@@ -428,13 +428,72 @@
           "p1": "Spot ini berada di sekitar arena pertunjukan Tari Kecak, salah satu atraksi budaya paling terkenal di Pura Uluwatu. Lokasinya berada di ujung selatan kawasan, tidak jauh dari tebing yang menghadap langsung ke Samudra Hindia. Di titik ini, pengunjung dapat mengambil foto dengan latar panggung terbuka, langit jingga saat senja, dan lautan lepas yang membentang luas di kejauhan.",
           "p2": "Waktu terbaik untuk berfoto di sini adalah menjelang matahari terbenam, saat sorotan cahaya sore memperkuat suasana dramatis di sekitar tebing dan panggung. Ini adalah tempat favorit bagi wisatawan yang ingin mengabadikan momen dengan sentuhan budaya Bali yang kuat dan panorama laut yang memukau."
         }
+      },
+
+     "ticketcenter": {
+        "title": "Loket Tiket & Pintu Masuk Area Pura Uluwatu",
+        "details": {
+          "p1": "Tempat ini merupakan titik pertama yang akan dikunjungi wisatawan sebelum memasuki kawasan Pura Uluwatu. Di sini terdapat loket pembelian tiket masuk dan juga tempat pembagian kain kamben serta selendang (senteng) yang wajib dikenakan sebagai bentuk penghormatan terhadap kesucian area pura.",
+          "p2": "Area ini juga berfungsi sebagai gerbang utama yang mengarahkan pengunjung menuju jalur-jalur wisata di dalam kompleks pura, termasuk area pertunjukan Tari Kecak, spot foto di tebing, dan pura utama. Petugas akan memeriksa tiket dan memastikan setiap pengunjung mengenakan kain adat sesuai ketentuan sebelum masuk ke area utama."
+        }
+      },
+
+      "monyetputih": {
+        "title": "Monyet Putih Albino di Kawasan Uluwatu",
+        "details": {
+          "p1": "Monyet putih adalah satu-satunya monyet albino di kawasan Uluwatu. Tidak seperti kera pada umumnya di Uluwatu, ia memiliki bulu putih di sekujur tubuhnya. Monyet ini pertama kali muncul di Pura Selonding (sekitar 2 km dari Pura Uluwatu) pada tahun 2019 dan diperkirakan lahir sekitar tahun 2014.",
+          "p2": "Saat pertama kali ditemukan, monyet putih tersebut dalam kondisi terluka parah karena diserang oleh monyet lain. Diduga, serangan tersebut terjadi karena penampilannya yang berbeda.",
+          "p3": "Monyet putih ini tidak diterima oleh kelompok atau klan monyet mana pun di kawasan tersebut. Setelah menjalani perawatan intensif dan sembuh total, monyet ini akhirnya ditempatkan di kandang khusus.",
+          "p4": "Karantina ini dilakukan untuk melindungi monyet putih dari serangan monyet lain, sekaligus menjaga keberlangsungan hidup satu-satunya monyet albino yang langka di kawasan Uluwatu."
+        }
+      },
+
+      "panggungkecak": {
+        "title": "Panggung Pertunjukan Tari Kecak Uluwatu",
+        "details": {
+          "p1": "Panggung pertunjukan Tari Kecak di Uluwatu berada tepat di atas tebing, menghadap langsung ke Samudra Hindia. Lokasi ini menawarkan latar pemandangan yang luar biasa, dengan siluet pura utama Uluwatu di kejauhan dan langit jingga saat matahari terbenam yang menambah kesan magis selama pertunjukan berlangsung.",
+          "p2": "Tiap sore menjelang malam, wisatawan dari berbagai penjuru datang untuk menyaksikan kisah Ramayana yang dibawakan lewat paduan suara 'cak' khas dari puluhan penari pria. Suasana alam yang dramatis—ombak Samudra Hindia, tebing curam, dan cahaya senja—menjadikan panggung ini salah satu pengalaman budaya paling ikonik di Bali."
+        }
+      },
+
+      "patungkumbhakarna": {
+        "title": "Patung Kumba Karna Kerebut di Pura Uluwatu",
+        "details": {
+          "p1": "Patung Kumba Karna Kerebut di Pura Uluwatu menggambarkan sosok Kumbakarna, seorang pejuang legendaris dari kisah epik Hindu Ramayana. Dikenal karena kekuatan luar biasa dan kesetiaannya yang tak tergoyahkan, Kumbakarna bertarung melawan Rama bukan karena niat jahat, tetapi karena rasa tanggung jawab. Patung ini melambangkan pengorbanan, pengabdian, dan integritas moral—nilai-nilai yang sangat dijunjung tinggi dalam ajaran Hindu Bali.",
+          "p2": "Berlatar tebing dramatis Uluwatu, patung ini sering dikaitkan dengan monyet-monyet suci yang menghuni area pura. Ukiran yang rumit menghidupkan kembali adegan pertempuran antara Kumbakarna dan pasukan wanara, memadukan mitologi dengan keindahan alam, sehingga menjadikannya salah satu penanda budaya dan spiritual yang penting di kawasan ini."
+        }
+      },
+
+      "danghyangnirartha": {
+        "title": "Patung Danghyang Nirartha di Pura Uluwatu",
+        "details": {
+          "p1": "Patung Danghyang Nirartha memberikan penghormatan kepada salah satu pendeta Hindu paling dihormati di Bali, yaitu Danghyang Nirartha, yang berperan besar dalam membentuk ajaran Hindu Bali pada abad ke-16. Ia dikenal sebagai pendiri beberapa pura besar, termasuk Pura Uluwatu, tempat di mana ia diyakini mencapai moksha (pembebasan spiritual) melalui meditasi mendalam di atas tebing pura.",
+          "p2": "Patung ini menggambarkan sosok Nirartha dalam posisi meditasi yang tenang, melambangkan kebijaksanaan, pencerahan, dan tuntunan spiritual. Sebagai tokoh penting dalam sejarah keagamaan Bali, pengaruh ajaran Danghyang Nirartha masih terasa hingga kini dalam berbagai upacara dan tradisi keagamaan, menjadikan patung ini sebagai tempat perenungan dan penghormatan bagi para pengunjung."
+        }
       }
 
+
+
+
+
+  },
+
+  "tutorial":{
+    "title":"Celana pendek memakai sarung, celana panjang memakai selendang",
+    "sarung": "Cara memakai sarung",
+    "selendang": "Cara memakai selendang",
+    "stepsSarong": [
+      "Pegang ujung sarung",
+      "Ikatkan kedua ujungnya",
+      "Ikat sekali lagi agar tidak mudah lepas",
+      "Selesai"
+    ],
+    "stepsSash": [
+      "Pegang ujung selendang",
+      "Ikatkan kedua ujungnya",
+      "Ikat sekali lagi agar tidak mudah lepas",
+      "Selesai"
+    ]
   }
-
-
-
-
-
   
 }
