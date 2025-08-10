@@ -6,6 +6,8 @@
   "venueRental": "Sewa Tempat",
   "urgentContact": "Kontak Darurat",
   "moreInfo": "Info Selengkapnya",
+  "aturandilakukan": "Yang Harus Dilakukan (Hal yang Sebaiknya Dilakukan)",
+  "aturantidakboleh": "Yang Tidak Boleh (Hal yang Tidak Boleh Dilakukan)",
 
   "footer": {
     "description": "Temukan Pura Uluwatu yang legendaris di Bali, terletak di atas tebing menakjubkan dengan pemandangan laut yang memukau.",
@@ -479,7 +481,7 @@
   },
 
   "tutorial":{
-    "title":"Celana pendek memakai sarung, celana panjang memakai selendang",
+    "title":"Celana pendek memakai sarung, Celana panjang memakai selendang",
     "sarung": "Cara memakai sarung",
     "selendang": "Cara memakai selendang",
     "stepsSarong": [

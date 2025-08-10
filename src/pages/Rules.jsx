@@ -61,7 +61,7 @@ const Rules = () => {
             <div className="flex items-center bg-green-600 text-white px-4 py-4 rounded-t-xl">
               <ThumbsUp size={18} className="mr-2" />
               <h3 className="font-bold text-md">
-                {selectedTab === 'uluwatu' ? 'Yang Boleh' : 'Yang Harus Dilakukan'}
+                {t("aturandilakukan")}
               </h3>
             </div>
             <ul className="p-4 space-y-3 text-sm">
@@ -81,7 +81,7 @@ const Rules = () => {
             <div className="flex items-center bg-red-600 text-white px-4 py-4 rounded-t-xl">
               <ThumbsDown size={18} className="mr-2" />
               <h3 className="font-bold text-md">
-                {selectedTab === 'uluwatu' ? 'Yang Tidak Boleh' : 'Hal yang Dilarang'}
+                 {t("aturantidakboleh")}
               </h3>
             </div>
             <ul className="p-4 space-y-3 text-sm">
