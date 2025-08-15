@@ -7,7 +7,7 @@ import { GetLocations } from '../data/LocationsData'
 import { useTranslation } from "react-i18next";
 
 
-const mapImage = '/denah_uluwatu.png';
+const mapImage = '/denah_uluwatu.webp';
 
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -89,7 +89,7 @@ const handleMarkerClick = (placeData) => {
         crs={L.CRS.Simple}
         bounds={imageBounds}
         zoom={0}
-        minZoom={-0.6} 
+        minZoom={-2.6} 
         maxZoom={2} 
         maxBounds={imageBounds}
         maxBoundsViscosity={1.0}
@@ -126,7 +126,7 @@ const handleMarkerClick = (placeData) => {
       <div className="fixed bottom-6 left-6 z-50 w-40 h-28 md:w-72 md:h-56 z-[998] border-2 border-white shadow-lg rounded overflow-hidden" 
       onClick={togglePopup}>
         <img
-          src="/denah_uluwatu.png"
+          src="/denah_uluwatu.webp"
           alt="Mini Map"
           className="w-full h-full object-cover"
         />
@@ -147,7 +147,7 @@ const handleMarkerClick = (placeData) => {
           <div className="relative bg-white rounded-lg shadow-lg max-w-3xl w-[90%] p-2">
           
             <img
-              src="/denah_uluwatu.png"
+              src="/denah_uluwatu.webp"
               alt="Full Map"
               className="w-full h-auto rounded"
             />
