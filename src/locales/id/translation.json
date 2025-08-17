@@ -30,7 +30,7 @@
 
   "home": {
     "hero": {
-      "title": "Selamat Datang di Pura Uluwatu",
+      "title": "Selamat Datang di Daya Tarik Wisata Pura Uluwatu",
       "titlesatu": "Ketentuan Pakaian untuk Pengunjung",
       "titledua": "Nikmati Pertunjukan Tari Kecak",
       "description": "Temukan keindahan spiritual dan pemandangan tebing menakjubkan di Uluwatu. Kami mengundang Anda untuk menjelajahi tradisi, budaya, dan suasana sakral dari salah satu pura paling ikonik di Bali.",
@@ -101,15 +101,15 @@
           },
           {
             "title": "Amankan Barang Milik Anda",
-            "desc": "Jauhkan kacamata hitam, topi, dan tas Anda dari gangguan monyet nakal."
+            "desc": "Jauhkan kacamata, topi, tas, makanan dan barang lainnya dari gangguan monyet."
           },
           {
             "title": "Saksikan Tari Kecak saat Matahari Terbenam",
             "desc": "Nikmati Tari Kecak yang terkenal sambil menikmati matahari terbenam yang menakjubkan di Bali."
           },
           {
-            "title": "Parkir di Area yang Ditetapkan",
-            "desc": "Gunakan tempat parkir resmi untuk menghindari denda atau ketidaknyamanan."
+            "title": "Parkir Sesuai Tempat yang Disediakan",
+            "desc": "Silakan gunakan area parkir yang telah disediakan agar tertib, aman, dan tidak mengganggu kenyamanan orang lain."
           }
         ],
         "donts": [
@@ -312,7 +312,10 @@
     "performs": "Tampil setiap hari pukul",
     "available": "Tiket tersedia langsung di lokasi mulai pukul",
     "adult": "Dewasa",
-    "child": "Anak-anak"
+    "child": "Anak-anak",
+    "dsckawasan": "Harga belum termasuk tiket pertunjukan Tari Kecak",
+    "dsckecak": "Harga belum termasuk tiket masuk kawasan wisata"
+
   },
 
   "datamap":{
@@ -333,6 +336,7 @@
             "p3": "Fasilitas yang tersedia di dalam toilet meliputi air bersih, wastafel untuk mencuci tangan, dan tempat sampah yang rutin dibersihkan oleh petugas."
           }
       },
+
       "toiletdua": {
         "title": "Toilet di Sebelah Utara Kawasan Pura Uluwatu",
         "details": {
@@ -431,6 +435,15 @@
           "p2": "Waktu terbaik untuk berfoto di sini adalah menjelang matahari terbenam, saat sorotan cahaya sore memperkuat suasana dramatis di sekitar tebing dan panggung. Ini adalah tempat favorit bagi wisatawan yang ingin mengabadikan momen dengan sentuhan budaya Bali yang kuat dan panorama laut yang memukau."
         }
       },
+
+   "fotodelapan": {
+  "title": "Spot Foto Pohon Rindang dengan Laut Biru",
+  "details": {
+    "p1": "Spot ini berada di sisi tenggara kawasan Pura Uluwatu, di area yang dikelilingi pepohonan hijau dan rindang. Suasananya sejuk dan tenang, cocok bagi pengunjung yang ingin beristirahat sambil menikmati panorama alam.",
+    "p2": "Dari titik ini, pengunjung dapat mengambil foto dengan latar belakang pepohonan asri yang berpadu dengan hamparan laut biru di kejauhan. Waktu terbaik untuk berfoto adalah saat langit cerah, ketika warna laut tampak kontras dengan hijaunya pepohonan."
+  }
+},
+
 
      "ticketcenter": {
         "title": "Loket Tiket & Pintu Masuk Area Pura Uluwatu",

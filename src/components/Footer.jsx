@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { MessageCircle, Mail } from "lucide-react";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -33,10 +34,19 @@ const Footer = () => {
     {/* Contact Info */}
     <div className="mb-10 md:mb-0">
       <h4 className="text-sm font-bold mb-2">{t("footer.pagesContact") || "Contact"}</h4>
-      <div className="text-sm text-white/90 space-y-1">
-        <p>{t("footer.contact.admin1")}</p>
-        <p>{t("footer.contact.admin2")}</p>
-        <p>{t("footer.contact.email")}</p>
+      <div className="text-sm text-white/90 space-y-2">
+        <div className="flex items-center gap-2">
+          <MessageCircle className="w-4 h-4 text-white" />
+          <p>{t("footer.contact.admin1")}</p>
+        </div>
+        <div className="flex items-center gap-2">
+          <MessageCircle className="w-4 h-4 text-white" />
+          <p>{t("footer.contact.admin2")}</p>
+        </div>
+        <div className="flex items-center gap-2">
+          <Mail className="w-4 h-4 text-white" />
+          <p>{t("footer.contact.email")}</p>
+        </div>
       </div>
     </div>
 

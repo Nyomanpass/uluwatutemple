@@ -30,7 +30,7 @@
 
   "home": {
     "hero": {
-      "title": "Welcome to Uluwatu Temple",
+      "title": "Welcome to the Tourist Attraction of Uluwatu Temple",
       "titlesatu": "Clothing Guidelines for Visitors",
       "titledua": "Enjoy the Kecak Dance Performance",
       "description": "Discover the spiritual beauty and breathtaking cliffside views of Uluwatu. We invite you to explore the traditions, culture, and sacred atmosphere of one of Bali’s most iconic temples.",
@@ -100,17 +100,18 @@
         "desc": "Be cautious when using your phone, as monkeys may try to snatch it."
       },
       {
-        "title": "Secure Your Belongings",
-        "desc": "Keep sunglasses, hats, and bags away from mischievous monkeys."
+         "title": "Secure Your Belongings",
+         "desc": "Keep glasses, hats, bags, food, and other items away from monkey disturbances."
       },
       {
         "title": "Watch the Kecak Dance at Sunset",
         "desc": "Enjoy the famous Kecak Dance while admiring Bali’s stunning sunset."
       },
       {
-        "title": "Park in Designated Areas",
-        "desc": "Use official parking zones to avoid fines or inconvenience."
+        "title": "Park in the Designated Area",
+        "desc": "Please use the designated parking area to ensure order, safety, and avoid disturbing others' comfort."
       }
+
     ],
     "donts": [
       {
@@ -312,7 +313,9 @@
     "performs": "Performs everyday at",
     "available": "Tickets available on the spot at",
     "adult": "Adult",
-    "child": "Children"
+    "child": "Children",
+    "dsckawasan": "The price does not include the Kecak Dance performance ticket",
+    "dsckecak": "The price does not include the entrance ticket to the tourist area"
   },
 
   "datamap":{
@@ -431,6 +434,15 @@
           "p2": "The best time to take photos here is during sunset, when the soft evening light adds dramatic atmosphere to the cliffs and stage. This is a favorite spot for tourists wanting to capture moments with a strong Balinese cultural vibe and stunning ocean views."
         }
       },
+
+      "fotodelapan": {
+  "title": "Photo Spot with Shady Trees and Blue Ocean",
+  "details": {
+    "p1": "This spot is located on the southeastern side of Uluwatu Temple, surrounded by lush and shady trees. The atmosphere is calm and refreshing, perfect for visitors who want to relax while enjoying the natural scenery.",
+    "p2": "From this point, visitors can take photos with a backdrop of green trees blending with the vast blue ocean in the distance. The best time to take photos here is on a clear day, when the color of the ocean contrasts beautifully with the greenery."
+  }
+},
+
 
       "ticketcenter": {
         "title": "Ticket Counter & Entrance to Pura Uluwatu Area",
