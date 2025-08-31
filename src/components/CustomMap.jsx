@@ -89,7 +89,7 @@ const handleMarkerClick = (placeData) => {
         crs={L.CRS.Simple}
         bounds={imageBounds}
         zoom={0}
-        minZoom={-2.6} 
+        minZoom={-3} 
         maxZoom={2} 
         maxBounds={imageBounds}
         maxBoundsViscosity={1.0}
@@ -132,14 +132,21 @@ const handleMarkerClick = (placeData) => {
         />
       </div>
 
-      <div className="fixed top-29 left-6 z-50 z-[998] border-2 border-white shadow-lg rounded-full overflow-hidden" 
-      onClick={togglePopup}>
+      <div className="fixed top-29 left-6 z-50 z-[998] border-2 border-white shadow-lg rounded-full overflow-hidden">
         <img
           src="/mataangin.png"
           alt="Mini Map"
           className="w-[75px] h-[75px] object-cover"
         />
       </div>
+
+      <div
+        className="fixed top-29 right-6 z-[998] bg-white backdrop-blur-sm border border-gray-200 shadow-lg rounded-xl px-4 py-2 text-sm text-gray-700 leading-snug"
+        dangerouslySetInnerHTML={{ __html: t("map_hint") }}
+      />
+
+
+
 
 
       {isPopupOpen && (

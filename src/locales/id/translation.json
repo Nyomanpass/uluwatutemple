@@ -8,6 +8,7 @@
   "moreInfo": "Info Selengkapnya",
   "aturandilakukan": "Yang Harus Dilakukan (Hal yang Sebaiknya Dilakukan)",
   "aturantidakboleh": "Yang Tidak Boleh (Hal yang Tidak Boleh Dilakukan)",
+  "map_hint": "💡 Klik ikon di peta untuk <br /> lihat detail lokasi",
 
   "footer": {
     "description": "Temukan Pura Uluwatu yang legendaris di Bali, terletak di atas tebing menakjubkan dengan pemandangan laut yang memukau.",
@@ -433,16 +434,16 @@
         "details": {
           "p1": "Spot ini berada di sekitar arena pertunjukan Tari Kecak, salah satu atraksi budaya paling terkenal di Pura Uluwatu. Lokasinya berada di ujung selatan kawasan, tidak jauh dari tebing yang menghadap langsung ke Samudra Hindia. Di titik ini, pengunjung dapat mengambil foto dengan latar panggung terbuka, langit jingga saat senja, dan lautan lepas yang membentang luas di kejauhan.",
           "p2": "Waktu terbaik untuk berfoto di sini adalah menjelang matahari terbenam, saat sorotan cahaya sore memperkuat suasana dramatis di sekitar tebing dan panggung. Ini adalah tempat favorit bagi wisatawan yang ingin mengabadikan momen dengan sentuhan budaya Bali yang kuat dan panorama laut yang memukau."
-        }
+        } 
       },
 
-   "fotodelapan": {
-  "title": "Spot Foto Pohon Rindang dengan Laut Biru",
-  "details": {
-    "p1": "Spot ini berada di sisi tenggara kawasan Pura Uluwatu, di area yang dikelilingi pepohonan hijau dan rindang. Suasananya sejuk dan tenang, cocok bagi pengunjung yang ingin beristirahat sambil menikmati panorama alam.",
-    "p2": "Dari titik ini, pengunjung dapat mengambil foto dengan latar belakang pepohonan asri yang berpadu dengan hamparan laut biru di kejauhan. Waktu terbaik untuk berfoto adalah saat langit cerah, ketika warna laut tampak kontras dengan hijaunya pepohonan."
-  }
-},
+    "fotodelapan": {
+        "title": "Spot Foto Pohon Rindang dengan Laut Biru",
+        "details": {
+          "p1": "Spot ini berada di sisi tenggara kawasan Pura Uluwatu, di area yang dikelilingi pepohonan hijau dan rindang. Suasananya sejuk dan tenang, cocok bagi pengunjung yang ingin beristirahat sambil menikmati panorama alam.",
+          "p2": "Dari titik ini, pengunjung dapat mengambil foto dengan latar belakang pepohonan asri yang berpadu dengan hamparan laut biru di kejauhan. Waktu terbaik untuk berfoto adalah saat langit cerah, ketika warna laut tampak kontras dengan hijaunya pepohonan."
+        }
+      },
 
 
      "ticketcenter": {
