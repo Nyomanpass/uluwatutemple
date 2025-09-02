@@ -9,6 +9,8 @@
   "aturandilakukan": "Yang Harus Dilakukan (Hal yang Sebaiknya Dilakukan)",
   "aturantidakboleh": "Yang Tidak Boleh (Hal yang Tidak Boleh Dilakukan)",
   "map_hint": "💡 Klik ikon di peta untuk <br /> lihat detail lokasi",
+  "iconon": "Ikon Aktif",
+  "iconoff": "Ikon Nonaktif",
 
   "footer": {
     "description": "Temukan Pura Uluwatu yang legendaris di Bali, terletak di atas tebing menakjubkan dengan pemandangan laut yang memukau.",
@@ -228,7 +230,7 @@
     },
     "whereToBuyTitle": "Di Mana Membeli Tiket?",
     "whereToBuy": {
-      "booth": "Loket Resmi: Terletak di pintu masuk Pura Uluwatu",
+      "booth": "Loket Resmi: Berada dalam kawasan pura, dekat panggung tari kecak.",
       "online": "Reservasi Online: Beberapa platform mungkin menyediakan opsi pemesanan sebelumnya untuk kenyamanan"
     },
     "importantNoteTitle": "CATATAN PENTING:",
@@ -486,10 +488,52 @@
           "p1": "Patung Danghyang Nirartha memberikan penghormatan kepada salah satu pendeta Hindu paling dihormati di Bali, yaitu Danghyang Nirartha, yang berperan besar dalam membentuk ajaran Hindu Bali pada abad ke-16. Ia dikenal sebagai pendiri beberapa pura besar, termasuk Pura Uluwatu, tempat di mana ia diyakini mencapai moksha (pembebasan spiritual) melalui meditasi mendalam di atas tebing pura.",
           "p2": "Patung ini menggambarkan sosok Nirartha dalam posisi meditasi yang tenang, melambangkan kebijaksanaan, pencerahan, dan tuntunan spiritual. Sebagai tokoh penting dalam sejarah keagamaan Bali, pengaruh ajaran Danghyang Nirartha masih terasa hingga kini dalam berbagai upacara dan tradisi keagamaan, menjadikan patung ini sebagai tempat perenungan dan penghormatan bagi para pengunjung."
         }
+      },
+
+      "tiketkecak": {
+        "title": "Tiket Pertunjukan Tari Kecak Uluwatu",
+        "details": {
+          "p1": "Pertunjukan Tari Kecak di Pura Luhur Uluwatu berlangsung setiap hari pukul 18.00 WITA, bertepatan dengan matahari terbenam yang indah di tebing Uluwatu.",
+          "p2": "Harga tiket: Dewasa Rp150.000, Anak-anak Rp75.000. Harga ini hanya untuk pertunjukan Tari Kecak dan belum termasuk tiket masuk kawasan wisata Pura Uluwatu.",
+          "p3": "Tiket dapat dibeli langsung di loket resmi Tari Kecak sebelum pertunjukan dimulai. Pertunjukan berlangsung sekitar 1 jam."
+        }
+      },
+
+     "exit": {
+        "title": "Pintu Keluar Kawasan Pura Uluwatu",
+        "details": {
+          "p1": "Pintu keluar kawasan berada di sebelah loket tiket utama, tepatnya di sisi selatan area masuk Pura Luhur Uluwatu.",
+          "p2": "Lokasi pintu keluar ini berdekatan dengan gate atau loket tiket masuk kawasan, sehingga memudahkan pengunjung saat selesai berkunjung.",
+          "p3": "Di area pintu keluar ini juga tersedia tempat untuk mengembalikan sarung atau selendang yang dipinjam selama berada di kawasan pura."
+        }
+      },
+
+      "mural": {
+        "title": "Mural Kawasan Pura Uluwatu",
+        "details": {
+          "p1": "Di beberapa area tembok sekitar kawasan Pura Luhur Uluwatu terdapat mural (lukisan dinding) yang menampilkan keindahan seni dan budaya Bali.",
+          "p2": "Tema mural mencakup berbagai ikon khas Uluwatu seperti monyet yang hidup di sekitar pura, pementasan Tari Kecak yang terkenal, Patung Kumbakarna, hingga Patung Danghyang Nirartha.",
+          "p3": "Selain sebagai elemen artistik, mural-mural ini juga menjadi spot foto populer bagi wisatawan dan media edukasi visual untuk mengenal sejarah serta budaya Pura Uluwatu."
+        }
+      },
+
+      "dropzone": {
+        "title": "Drop Zone Kawasan Pura Uluwatu",
+        "details": {
+          "p1": "Drop zone adalah area khusus untuk menurunkan dan menjemput penumpang di kawasan Pura Luhur Uluwatu.",
+          "p2": "Lokasinya berada di depan, tepat di sebelah selatan loket tiket masuk utama, sehingga penumpang dapat langsung menuju loket untuk membeli tiket masuk kawasan Pura Uluwatu.",
+          "p3": "Dengan lokasi yang dekat pintu masuk, drop zone memudahkan wisatawan untuk mengakses tiket, sekaligus menjaga area depan pura tetap tertib dan tidak menimbulkan kemacetan."
+        }
+      },
+
+   "bushalte": {
+      "title": "Bus Halte Kawasan Pura Uluwatu",
+      "details": {
+        "p1": "Bus halte di kawasan Pura Luhur Uluwatu merupakan titik khusus bagi bus pariwisata untuk menurunkan dan menjemput penumpang.",
+        "p2": "Lokasinya berada tepat setelah melewati gapura paling awal pintu masuk kawasan, sehingga menjadi area pertama yang ditemui sebelum masuk ke area parkiran utama.",
+        "p3": "Dari halte ini, penumpang bisa langsung berjalan menuju loket tiket utama. Setelah selesai menurunkan penumpang, bus diarahkan menuju area parkir bus agar tidak mengganggu arus kendaraan di depan kawasan."
       }
-
-
-
+    }
 
 
   },

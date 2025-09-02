@@ -1,5 +1,5 @@
 // src/data/locationsData.js
-import { atm, atmIcon, carIcon, shop, p3k, foto, toilet, ticket, kumbakarna, rsi, panggung, monkey } from '../utils/CustomIcons';
+import { atm, atmIcon, carIcon, shop, p3k, foto, toilet, ticket, kumbakarna, rsi, panggung, monkey, mural, exit, bus, dropzone} from '../utils/CustomIcons';
 
 export const GetLocations = (imageBounds, t) => {
 
@@ -250,7 +250,7 @@ export const GetLocations = (imageBounds, t) => {
 
     {
     id: 'ticketcounter',
-    position: [imageBounds[1][0] * 0.46, imageBounds[1][1] * 0.59],
+    position: [imageBounds[1][0] * 0.47, imageBounds[1][1] * 0.60],
     title: t("datamap.ticketcenter.title"),
     icon: ticket,
     details: (
@@ -321,10 +321,76 @@ export const GetLocations = (imageBounds, t) => {
     images: ['/gambarmap/panggungsatu.jpg', '/gambarmap/panggungdua.jpg', '/gambarmap/panggungtiga.jpg', '/gambarmap/panggungempat.jpg']
     },
 
-    
+    {
+    id: 'tiketkecak',
+    position: [imageBounds[1][0] * 0.44, imageBounds[1][1] * 0.35],
+    title: t("datamap.ticketcenter.title"),
+    icon: ticket,
+    details: (
+        <div>
+            <p>{t("datamap.ticketcenter.details.p1")}</p>
+            <p>{t("datamap.ticketcenter.details.p2")}</p>
+        </div>
+    ),
+    images: ['/gambarmap/tiketkecak.jpg', '/gambarmap/tiketkecakdua.jpg']
+    },
+
+     {
+    id: 'exit',
+    position: [imageBounds[1][0] * 0.40, imageBounds[1][1] * 0.53],
+    title: t("datamap.ticketcenter.title"),
+    icon: exit,
+    details: (
+        <div>
+            <p>{t("datamap.ticketcenter.details.p1")}</p>
+            <p>{t("datamap.ticketcenter.details.p2")}</p>
+        </div>
+    ),
+    images: []
+    },
+
+    {
+    id: 'mural',
+    position: [imageBounds[1][0] * 0.40, imageBounds[1][1] * 0.56],
+    title: t("datamap.ticketcenter.title"),
+    icon: mural,
+    details: (
+        <div>
+            <p>{t("datamap.ticketcenter.details.p1")}</p>
+            <p>{t("datamap.ticketcenter.details.p2")}</p>
+        </div>
+    ),
+    images: ['/gambarmap/muralsatu.jpg', '/gambarmap/muraldua.jpg']
+    },
 
 
+    {
+    id: 'dropzone',
+    position: [imageBounds[1][0] * 0.40, imageBounds[1][1] * 0.60],
+    title: t("datamap.ticketcenter.title"),
+    icon: dropzone,
+    details: (
+        <div>
+            <p>{t("datamap.ticketcenter.details.p1")}</p>
+            <p>{t("datamap.ticketcenter.details.p2")}</p>
+        </div>
+    ),
+    images: ['/gambarmap/dropzonesatu.jpeg', '/gambarmap/dropzonedua.jpeg']
+    },
 
+    {
+    id: 'bushalte',
+    position: [imageBounds[1][0] * 0.42, imageBounds[1][1] * 0.77,8],
+    title: t("datamap.ticketcenter.title"),
+    icon: bus,
+    details: (
+        <div>
+            <p>{t("datamap.ticketcenter.details.p1")}</p>
+            <p>{t("datamap.ticketcenter.details.p2")}</p>
+        </div>
+    ),
+    images: []
+    },
 
   ];
 };

@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { MapContainer, ImageOverlay, Marker, Popup, useMap } from 'react-leaflet';
+import { Eye, EyeOff } from "lucide-react";
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import BottomSheet from './BottomSheet'; // Import komponen BottomSheet
@@ -32,6 +33,7 @@ export default function CustomMap({onBottomSheetChange}) {
   const [isBottomSheetOpen, setIsBottomSheetOpen] = useState(false);
   const [selectedPlace, setSelectedPlace] = useState(null); 
   const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [showMarkers, setShowMarkers] = useState(true)
   const { t } = useTranslation();
 
 
@@ -89,7 +91,7 @@ const handleMarkerClick = (placeData) => {
         crs={L.CRS.Simple}
         bounds={imageBounds}
         zoom={0}
-        minZoom={-3} 
+        minZoom={-2.5} 
         maxZoom={2} 
         maxBounds={imageBounds}
         maxBoundsViscosity={1.0}
@@ -107,7 +109,7 @@ const handleMarkerClick = (placeData) => {
         <ImageOverlay url={mapImage} bounds={imageBounds} />
         <FitBounds bounds={imageBounds} />
 
-        {locations.map((loc) => (
+        {showMarkers && locations.map((loc) => (
           <Marker
             key={loc.id}
             position={loc.position}
@@ -139,13 +141,29 @@ const handleMarkerClick = (placeData) => {
           className="w-[75px] h-[75px] object-cover"
         />
       </div>
-
-      <div
+      {showMarkers && (
+         <div
         className="fixed top-29 right-6 z-[998] bg-white backdrop-blur-sm border border-gray-200 shadow-lg rounded-xl px-4 py-2 text-sm text-gray-700 leading-snug"
         dangerouslySetInnerHTML={{ __html: t("map_hint") }}
       />
-
-
+      )}
+     
+    <button
+      onClick={() => setShowMarkers(!showMarkers)}
+      className="fixed bottom-6 right-6 z-[999] flex items-center gap-2 bg-white text-gray-800 px-4 py-2 rounded-full shadow-lg border transition-all duration-300 hover:scale-105 hover:bg-gray-100"
+    >
+      {showMarkers ? (
+        <>
+          <Eye className="w-5 h-5 text-blue-600" />
+          <span className="font-medium">{t("iconon")}</span>
+        </>
+      ) : (
+        <>
+          <EyeOff className="w-5 h-5 text-red-500" />
+          <span className="font-medium">{t("iconoff")}</span>
+        </>
+      )}
+    </button>
 
 
 

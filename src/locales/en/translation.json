@@ -9,6 +9,8 @@
   "aturandilakukan": "Do’s (Things You Should Do)",
   "aturantidakboleh": "Don’ts (Things You Should NOT Do)",
   "map_hint": "💡 Tap an icon on the map to <br /> see location details",
+  "iconon": "Icons On",
+  "iconoff": "Icons Off",
 
   "footer": {
     "description": "Discover the legendary Uluwatu Temple in Bali, perched on a stunning cliff with breathtaking ocean views.",
@@ -228,7 +230,7 @@
     },
     "whereToBuyTitle": "Where to Buy Tickets?",
     "whereToBuy": {
-      "booth": "Official Ticket Booth: Located at Uluwatu Temple entrance",
+      "booth": "Official Ticket Booth: Inside the temple area, near the Kecak dance stage.",
       "online": "Online Reservations: Some platforms may offer pre-booking options for convenience"
     },
     "importantNoteTitle": "IMPORTANT NOTE:",
@@ -485,7 +487,54 @@
             "p1": "The Danghyang Nirartha Statue honors one of Bali’s most revered Hindu priests, Danghyang Nirartha, who played a crucial role in shaping Balinese Hinduism in the 16th century. He is credited with founding several major temples, including Pura Uluwatu, where he is believed to have attained moksha (spiritual liberation) through deep meditation on the temple’s cliffs.",
             "p2": "The statue, depicted in a serene meditative pose, represents wisdom, enlightenment, and spiritual guidance. As a key figure in Balinese religious history, Nirartha’s influence is still felt today in temple rituals and traditional ceremonies, making his statue a place of reverence and reflection for visitors."
           }
-        }
+        },
+
+
+        "tiketkecak": {
+  "title": "Uluwatu Kecak Dance Ticket",
+  "details": {
+    "p1": "The Kecak Dance performance at Uluwatu Temple takes place every day at 6:00 PM WITA, coinciding with the stunning sunset on the Uluwatu cliffs.",
+    "p2": "Ticket prices: Adults Rp150,000, Children Rp75,000. This price is only for the Kecak Dance performance and does not include the entrance ticket to Uluwatu Temple area.",
+    "p3": "Tickets can be purchased directly at the official Kecak Dance ticket counter before the performance begins. The show lasts about 1 hour."
+  }
+},
+
+"exit": {
+  "title": "Uluwatu Temple Exit Gate",
+  "details": {
+    "p1": "The exit gate is located next to the main ticket counter, precisely on the south side of the Uluwatu Temple entrance area.",
+    "p2": "This exit location is close to the entrance gate and ticket counter, making it easier for visitors when finishing their visit.",
+    "p3": "In this area, there is also a place to return sarongs or sashes borrowed during the visit to the temple."
+  }
+},
+
+"mural": {
+  "title": "Uluwatu Temple Murals",
+  "details": {
+    "p1": "On several walls around the Uluwatu Temple area, there are murals (wall paintings) showcasing the beauty of Balinese art and culture.",
+    "p2": "The mural themes include Uluwatu’s iconic elements such as monkeys living around the temple, the famous Kecak Dance performance, Kumbakarna Statue, and Danghyang Nirartha Statue.",
+    "p3": "Besides serving as artistic elements, these murals are also popular photo spots for tourists and visual educational media to learn about the history and culture of Uluwatu Temple."
+  }
+},
+
+"dropzone": {
+  "title": "Drop Zone at Uluwatu Temple",
+  "details": {
+    "p1": "The drop zone is a designated area for dropping off and picking up passengers at Uluwatu Temple.",
+    "p2": "It is located at the front, right on the south side of the main entrance ticket counter, allowing passengers to directly access the ticket counter to buy entry tickets.",
+    "p3": "With its location close to the entrance, the drop zone makes it easier for visitors to access tickets while keeping the front area organized and free from congestion."
+  }
+},
+
+"bushalte": {
+  "title": "Bus Stop at Uluwatu Temple",
+  "details": {
+    "p1": "The bus stop at Uluwatu Temple is a special point for tour buses to drop off and pick up passengers.",
+    "p2": "It is located right after passing through the very first entrance gate to the temple area, making it the first spot encountered before reaching the main parking area.",
+    "p3": "From this bus stop, passengers can walk directly to the main ticket counter. After dropping off passengers, buses are directed to the bus parking area to avoid disrupting traffic at the front."
+  }
+}
+
       
   },
 

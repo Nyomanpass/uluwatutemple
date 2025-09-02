@@ -10,7 +10,8 @@
   "aturandilakukan": "应做事项（你应该做的事）",
   "aturantidakboleh": "禁止事项（你不应该做的事）",
   "map_hint": "💡 点击地图上的图标 <br /> 查看详细信息",
-
+  "iconon": "图标开启",
+  "iconoff": "图标关闭",
 
 
 "footer": {
@@ -233,7 +234,7 @@
   },
   "whereToBuyTitle": "在哪里购买门票？",
   "whereToBuy": {
-    "booth": "官方售票处：位于乌鲁瓦图庙入口处",
+    "booth": "售票处：位于庙宇区域内，靠近凯恰克舞台。",
     "online": "线上预订：部分平台可能提供提前预订选项，方便游客"
   },
   "importantNoteTitle": "重要提示：",
