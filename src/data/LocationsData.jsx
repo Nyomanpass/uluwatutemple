@@ -1,5 +1,5 @@
 // src/data/locationsData.js
-import { atm, atmIcon, carIcon, shop, p3k, foto, toilet, ticket, kumbakarna, rsi, panggung, monkey, mural, exit, bus, dropzone} from '../utils/CustomIcons';
+import { atm, atmIcon, carIcon, shop, p3k, foto, toilet, ticket, kumbakarna, rsi, panggung, monkey, mural, exit, bus,parkir,nursery, dropzone} from '../utils/CustomIcons';
 
 export const GetLocations = (imageBounds, t) => {
 
@@ -11,7 +11,7 @@ export const GetLocations = (imageBounds, t) => {
     id: 'taxi',
     position: [imageBounds[1][0] * 0.49, imageBounds[1][1] * 0.80],
     title: t("datamap.taxi.title"),
-    icon: carIcon,
+    icon: parkir,
     details: (
         <div>
             <p>{t("datamap.taxi.details.p1")}</p>
@@ -324,12 +324,14 @@ export const GetLocations = (imageBounds, t) => {
     {
     id: 'tiketkecak',
     position: [imageBounds[1][0] * 0.44, imageBounds[1][1] * 0.35],
-    title: t("datamap.ticketcenter.title"),
+    title: t("datamap.tiketkecak.title"),
     icon: ticket,
     details: (
         <div>
-            <p>{t("datamap.ticketcenter.details.p1")}</p>
-            <p>{t("datamap.ticketcenter.details.p2")}</p>
+            <p>{t("datamap.tiketkecak.details.p1")}</p>
+            <p>{t("datamap.tiketkecak.details.p2")}</p>
+            <p>{t("datamap.tiketkecak.details.p3")}</p>
+
         </div>
     ),
     images: ['/gambarmap/tiketkecak.jpg', '/gambarmap/tiketkecakdua.jpg']
@@ -338,12 +340,14 @@ export const GetLocations = (imageBounds, t) => {
      {
     id: 'exit',
     position: [imageBounds[1][0] * 0.40, imageBounds[1][1] * 0.53],
-    title: t("datamap.ticketcenter.title"),
+    title: t("datamap.exit.title"),
     icon: exit,
     details: (
         <div>
-            <p>{t("datamap.ticketcenter.details.p1")}</p>
-            <p>{t("datamap.ticketcenter.details.p2")}</p>
+            <p>{t("datamap.exit.details.p1")}</p>
+            <p>{t("datamap.exit.details.p2")}</p>
+            <p>{t("datamap.exit.details.p3")}</p>
+            <p>{t("datamap.exit.details.p4")}</p>
         </div>
     ),
     images: []
@@ -352,12 +356,13 @@ export const GetLocations = (imageBounds, t) => {
     {
     id: 'mural',
     position: [imageBounds[1][0] * 0.40, imageBounds[1][1] * 0.56],
-    title: t("datamap.ticketcenter.title"),
+    title: t("datamap.mural.title"),
     icon: mural,
     details: (
         <div>
-            <p>{t("datamap.ticketcenter.details.p1")}</p>
-            <p>{t("datamap.ticketcenter.details.p2")}</p>
+            <p>{t("datamap.mural.details.p1")}</p>
+            <p>{t("datamap.mural.details.p2")}</p>
+            <p>{t("datamap.mural.details.p3")}</p>
         </div>
     ),
     images: ['/gambarmap/muralsatu.jpg', '/gambarmap/muraldua.jpg']
@@ -367,12 +372,13 @@ export const GetLocations = (imageBounds, t) => {
     {
     id: 'dropzone',
     position: [imageBounds[1][0] * 0.40, imageBounds[1][1] * 0.60],
-    title: t("datamap.ticketcenter.title"),
+    title: t("datamap.dropzone.title"),
     icon: dropzone,
     details: (
         <div>
-            <p>{t("datamap.ticketcenter.details.p1")}</p>
-            <p>{t("datamap.ticketcenter.details.p2")}</p>
+            <p>{t("datamap.dropzone.details.p1")}</p>
+            <p>{t("datamap.dropzone.details.p2")}</p>
+            <p>{t("datamap.dropzone.details.p3")}</p>
         </div>
     ),
     images: ['/gambarmap/dropzonesatu.jpeg', '/gambarmap/dropzonedua.jpeg']
@@ -381,12 +387,46 @@ export const GetLocations = (imageBounds, t) => {
     {
     id: 'bushalte',
     position: [imageBounds[1][0] * 0.42, imageBounds[1][1] * 0.77,8],
-    title: t("datamap.ticketcenter.title"),
+    title: t("datamap.bushalte.title"),
     icon: bus,
     details: (
         <div>
-            <p>{t("datamap.ticketcenter.details.p1")}</p>
-            <p>{t("datamap.ticketcenter.details.p2")}</p>
+            <p>{t("datamap.bushalte.details.p1")}</p>
+            <p>{t("datamap.bushalte.details.p2")}</p>
+            <p>{t("datamap.bushalte.details.p3")}</p>
+            <p>{t("datamap.bushalte.details.p4")}</p>
+        </div>
+    ),
+    images: []
+    },
+
+    {
+    id: 'nursery',
+    position: [imageBounds[1][0] * 0.62, imageBounds[1][1] * 0.65],
+    title: t("datamap.nursery.title"),
+    icon: nursery,
+    details: (
+        <div>
+            <p>{t("datamap.nursery.details.p1")}</p>
+            <p>{t("datamap.nursery.details.p2")}</p>
+            <p>{t("datamap.nursery.details.p3")}</p>
+            <p>{t("datamap.nursery.details.p4")}</p>
+        </div>
+    ),
+    images: []
+    },
+
+
+    {
+    id: 'car',
+    position: [imageBounds[1][0] * 0.42, imageBounds[1][1] * 0.74],
+    title: t("datamap.car.title"),
+    icon: carIcon,
+    details: (
+        <div>
+            <p>{t("datamap.car.details.p1")}</p>
+            <p>{t("datamap.car.details.p2")}</p>
+            <p>{t("datamap.car.details.p3")}</p>
         </div>
     ),
     images: []

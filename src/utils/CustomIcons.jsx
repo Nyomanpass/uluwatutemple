@@ -115,3 +115,19 @@ export const dropzone = new L.Icon({
   popupAnchor: [0, -30],
 });
 
+export const parkir = new L.Icon({
+  iconUrl: '/icons/parkir.png',
+  iconSize: [45, 45],
+  iconAnchor: [15, 30],
+  popupAnchor: [0, -30],
+});
+
+export const nursery = new L.Icon({
+  iconUrl: '/icons/nursery.png',
+  iconSize: [45, 45],
+  iconAnchor: [15, 30],
+  popupAnchor: [0, -30],
+});
+
+
+

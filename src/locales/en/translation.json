@@ -491,49 +491,71 @@
 
 
         "tiketkecak": {
-  "title": "Uluwatu Kecak Dance Ticket",
+  "title": "Uluwatu Kecak Dance Ticket Information",
   "details": {
-    "p1": "The Kecak Dance performance at Uluwatu Temple takes place every day at 6:00 PM WITA, coinciding with the stunning sunset on the Uluwatu cliffs.",
-    "p2": "Ticket prices: Adults Rp150,000, Children Rp75,000. This price is only for the Kecak Dance performance and does not include the entrance ticket to Uluwatu Temple area.",
-    "p3": "Tickets can be purchased directly at the official Kecak Dance ticket counter before the performance begins. The show lasts about 1 hour."
+    "p1": "The Kecak Dance performance at Uluwatu Temple is one of Bali’s most iconic cultural attractions. The show is held daily at 6:00 PM (WITA), coinciding with the beautiful sunset over the cliffs of Uluwatu.",
+    "p2": "Ticket prices are IDR 150,000 for adults and IDR 75,000 for children. This ticket only covers the Kecak Dance performance and does not include the entrance fee to Uluwatu Temple.",
+    "p3": "Tickets can be purchased directly at the official Kecak Dance ticket counter inside the area before the performance begins. Since the show is very popular and often fully booked, visitors are encouraged to arrive early to secure good seating."
   }
 },
 
 "exit": {
-  "title": "Uluwatu Temple Exit Gate",
+  "title": "Exit Gate Location at Uluwatu Temple",
   "details": {
-    "p1": "The exit gate is located next to the main ticket counter, precisely on the south side of the Uluwatu Temple entrance area.",
-    "p2": "This exit location is close to the entrance gate and ticket counter, making it easier for visitors when finishing their visit.",
-    "p3": "In this area, there is also a place to return sarongs or sashes borrowed during the visit to the temple."
+    "p1": "The exit gate of Uluwatu Temple is located on the southern side of the main ticket counter, making it easy for visitors to find their way out after exploring the temple complex.",
+    "p2": "Its close proximity to the entrance gate and ticket counter ensures a practical and organized flow for visitors, eliminating the need to walk far to leave the area.",
+    "p3": "At the exit area, there is also a facility for returning sarongs or sashes borrowed during the temple visit. This helps maintain order and ensures that traditional attire is properly managed.",
+    "p4": "The exit gate is also connected to the parking area, drop zone, and transportation stops, allowing visitors to conveniently continue their journey after leaving the temple."
   }
 },
 
 "mural": {
-  "title": "Uluwatu Temple Murals",
+  "title": "Cultural Murals at Uluwatu Temple",
   "details": {
-    "p1": "On several walls around the Uluwatu Temple area, there are murals (wall paintings) showcasing the beauty of Balinese art and culture.",
-    "p2": "The mural themes include Uluwatu’s iconic elements such as monkeys living around the temple, the famous Kecak Dance performance, Kumbakarna Statue, and Danghyang Nirartha Statue.",
-    "p3": "Besides serving as artistic elements, these murals are also popular photo spots for tourists and visual educational media to learn about the history and culture of Uluwatu Temple."
+    "p1": "Several walls within the Uluwatu Temple complex feature murals or wall paintings that highlight Bali’s rich art and cultural heritage. These murals enhance the aesthetic value of the temple while also serving as visual education for visitors.",
+    "p2": "The murals depict various iconic themes of Uluwatu, including the monkeys that inhabit the temple, the famous Kecak Dance performance, and cultural figures such as the Kumbakarna statue and the statue of Danghyang Nirartha.",
+    "p3": "Beyond being artistic elements, these murals have also become popular photo spots for tourists. Many visitors use them as backdrops for their travel documentation and memorable pictures."
   }
 },
 
 "dropzone": {
-  "title": "Drop Zone at Uluwatu Temple",
+  "title": "Drop Zone and Passenger Unloading Area at Uluwatu Temple",
   "details": {
-    "p1": "The drop zone is a designated area for dropping off and picking up passengers at Uluwatu Temple.",
-    "p2": "It is located at the front, right on the south side of the main entrance ticket counter, allowing passengers to directly access the ticket counter to buy entry tickets.",
-    "p3": "With its location close to the entrance, the drop zone makes it easier for visitors to access tickets while keeping the front area organized and free from congestion."
+    "p1": "The drop zone is a designated area for dropping off and picking up passengers within the Uluwatu Temple complex. It was designed to keep the flow of visitors organized and prevent traffic congestion.",
+    "p2": "Located in front of the temple, just south of the main entrance ticket counter, the drop zone allows visitors to head directly to the ticket counter without having to walk through the parking area first.",
+    "p3": "With its convenient location near the entrance, the drop zone is particularly useful for those arriving by taxi, shuttle, or private transfer services, ensuring a smooth and efficient arrival process."
   }
 },
 
 "bushalte": {
-  "title": "Bus Stop at Uluwatu Temple",
+  "title": "Tourist Bus Stop at Uluwatu Temple",
   "details": {
-    "p1": "The bus stop at Uluwatu Temple is a special point for tour buses to drop off and pick up passengers.",
-    "p2": "It is located right after passing through the very first entrance gate to the temple area, making it the first spot encountered before reaching the main parking area.",
-    "p3": "From this bus stop, passengers can walk directly to the main ticket counter. After dropping off passengers, buses are directed to the bus parking area to avoid disrupting traffic at the front."
+    "p1": "The bus stop at Uluwatu Temple is a designated point for tourist buses to drop off and pick up passengers. It helps regulate the movement of large vehicles to ensure order and visitor comfort.",
+    "p2": "The stop is located just after passing the first entrance gate, making it the first area encountered before reaching the main parking lot. From here, passengers can easily walk straight to the main ticket counter.",
+    "p3": "After dropping off passengers, buses are not allowed to wait at the front area. They are directed to the designated bus parking area to avoid blocking traffic for other vehicles.",
+    "p4": "This system ensures that group visits run more smoothly, safely, and in an organized manner, enhancing the overall tourist experience at Uluwatu Temple."
+  }
+},
+
+"car": {
+  "title": "Shuttle and Official Transportation Services at Uluwatu Temple",
+  "details": {
+    "p1": "Uluwatu Temple provides official shuttle and transportation services to ensure convenience and comfort for visitors. These services make it easier for tourists to reach the temple without worrying about personal vehicle access.",
+    "p2": "Options include scheduled shuttle buses, official taxis with transparent rates, and car rental services with professional drivers who are ready to take visitors to various popular destinations around Uluwatu and southern Bali.",
+    "p3": "Designated pick-up and drop-off points, such as bus stops and waiting areas, are strategically located within the complex, including near the main parking lot, making the transport service easy to find and use."
+  }
+},
+
+"nursery": {
+  "title": "Plant Nursery and Green Conservation Center at Uluwatu Temple",
+  "details": {
+    "p1": "The plant nursery is a dedicated area that functions as a center for growing, nurturing, and preserving various types of local flora and ornamental plants that beautify the Uluwatu Temple complex.",
+    "p2": "Here, young plants are carefully cultivated before being transplanted around the temple grounds, gardens, and walkways, ensuring that the environment remains green, refreshing, and welcoming for visitors.",
+    "p3": "Beyond maintaining the beauty of the site, the nursery also supports conservation and greening programs by preserving local plant species so that they remain sustainable for future generations.",
+    "p4": "The nursery also serves as an educational space where both visitors and the local community can learn about the importance of environmental preservation through plant care and sustainable landscaping practices."
   }
 }
+
 
       
   },
