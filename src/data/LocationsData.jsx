@@ -257,6 +257,7 @@ export const GetLocations = (imageBounds, t) => {
         <div>
             <p>{t("datamap.ticketcenter.details.p1")}</p>
             <p>{t("datamap.ticketcenter.details.p2")}</p>
+            <p>{t("datamap.ticketcenter.details.p3")}</p>
         </div>
     ),
     images: ['/gambarmap/git.jpg', '/gambarmap/gitsatu.jpg', '/gambarmap/gitdua.jpg', '/gambarmap/gittiga.jpg']

@@ -447,13 +447,14 @@
 },
 
 
-      "ticketcenter": {
-        "title": "Ticket Counter & Entrance to Pura Uluwatu Area",
-        "details": {
-          "p1": "This is the first point that visitors will encounter before entering the Uluwatu Temple area. Here, you’ll find the ticket counter for purchasing entrance passes, as well as the distribution point for sarongs and sashes (kamben and senteng), which are required to be worn as a sign of respect for the sacred temple grounds.",
-          "p2": "This area also serves as the main entrance that guides visitors to various paths within the temple complex, including the Kecak Dance performance area, scenic cliffside photo spots, and the main temple itself. Staff will check tickets and ensure that all visitors are wearing the proper traditional attire before entering the main area."
-        }
-      },
+    "ticketcenter": {
+  "title": "Ticket Counter & Entrance Gate of Uluwatu Temple",
+  "details": {
+    "p1": "This is the first point that visitors will encounter before entering the Uluwatu Temple area. Here, there is a ticket counter for purchasing entrance tickets as well as a distribution point for kamben cloth and sash (senteng), which must be worn as a sign of respect for the sacredness of the temple area.",
+    "p2": "This area also serves as the main gate leading visitors to various tourist paths inside the temple complex, including the Kecak Dance performance area, cliffside photo spots, and the main temple. Officers will check tickets and ensure that every visitor is wearing the traditional cloth as required before entering the main area.",
+    "p3": "On the right and left sides of the ticket counter, ATM machines are available to make it easier for visitors to withdraw cash."
+  }
+},
 
       "monyetputih": {
         "title": "Albino White Monkey in the Uluwatu Area",
