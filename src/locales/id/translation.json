@@ -555,6 +555,22 @@
         "p3": "Selain berfungsi menjaga keindahan kawasan, nursery ini juga mendukung program konservasi dan penghijauan dengan cara merawat spesies tanaman lokal agar tetap lestari dan bisa terus dinikmati oleh generasi mendatang.",
         "p4": "Keberadaan nursery juga dapat dimanfaatkan sebagai sarana edukasi, di mana wisatawan maupun masyarakat lokal bisa belajar mengenai pentingnya menjaga kelestarian lingkungan melalui perawatan tanaman."
       }
+    },
+
+    "atmdua": {
+      "title": "ATM Sebelah Selatan Ticket Center",
+      "details": {
+        "p1": "ATM Center ini terletak di sebelah selatan dari Ticket Center, sehingga mudah dijangkau oleh pengunjung setelah melakukan pembelian tiket.",
+        "p2": "Fasilitas ATM yang tersedia antara lain dari Bank BPD Bali, Bank Mandiri, dan Bank BCA, mendukung kenyamanan transaksi tunai para pengunjung."
+      }
+    },
+
+    "atmsatu": {
+      "title": "ATM Center Sebelah Utara Ticket Center",
+      "details": {
+        "p1": "ATM Center ini terletak di sebelah utara dari Ticket Center, sehingga mudah diakses oleh pengunjung sebelum atau sesudah pembelian tiket.",
+        "p2": "Fasilitas ATM yang tersedia antara lain dari Bank BRI dan Maybank, memberikan pilihan tambahan untuk kebutuhan transaksi tunai para pengunjung."
+      }
     }
 
 

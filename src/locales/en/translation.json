@@ -555,7 +555,23 @@
     "p3": "Beyond maintaining the beauty of the site, the nursery also supports conservation and greening programs by preserving local plant species so that they remain sustainable for future generations.",
     "p4": "The nursery also serves as an educational space where both visitors and the local community can learn about the importance of environmental preservation through plant care and sustainable landscaping practices."
   }
+},
+"atmdua": {
+  "title": "ATM South of Ticket Center",
+  "details": {
+    "p1": "This ATM Center is located to the south of the Ticket Center, making it easily accessible for visitors after purchasing tickets.",
+    "p2": "The available ATMs include Bank BPD Bali, Bank Mandiri, and Bank BCA, providing convenient cash transaction options for visitors."
+  }
+},
+
+"atmsatu": {
+  "title": "ATM North of Ticket Center",
+  "details": {
+    "p1": "This ATM Center is located to the north of the Ticket Center, making it convenient for visitors to access before or after purchasing tickets.",
+    "p2": "The available ATMs include Bank BRI and Maybank, offering additional options for visitors' cash transaction needs."
+  }
 }
+
 
 
       

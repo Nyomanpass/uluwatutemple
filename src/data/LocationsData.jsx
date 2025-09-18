@@ -260,7 +260,35 @@ export const GetLocations = (imageBounds, t) => {
             <p>{t("datamap.ticketcenter.details.p3")}</p>
         </div>
     ),
-    images: ['/gambarmap/git.jpg', '/gambarmap/gitsatu.jpg', '/gambarmap/gitdua.jpg', '/gambarmap/gittiga.jpg']
+    images: [ '/gambarmap/gitlima.jpg', '/gambarmap/git.jpg', '/gambarmap/gitempat.jpg', '/gambarmap/gitdua.jpg']
+    },
+
+     {
+    id: 'atmsatu',
+    position: [imageBounds[1][0] * 0.48, imageBounds[1][1] * 0.62],
+    title: t("datamap.atmsatu.title"),
+    icon: atm,
+    details: (
+        <div>
+            <p>{t("datamap.atmsatu.details.p1")}</p>
+            <p>{t("datamap.atmsatu.details.p2")}</p>
+        </div>
+    ),
+    images: ['/gambarmap/gitsatu.jpg']
+    },
+
+     {
+    id: 'atmdua',
+    position: [imageBounds[1][0] * 0.45, imageBounds[1][1] * 0.58],
+    title: t("datamap.atmdua.title"),
+    icon: atm,
+    details: (
+        <div>
+            <p>{t("datamap.atmdua.details.p1")}</p>
+            <p>{t("datamap.atmdua.details.p2")}</p>
+        </div>
+    ),
+    images: ['/gambarmap/gittiga.jpg']
     },
 
 
@@ -308,7 +336,7 @@ export const GetLocations = (imageBounds, t) => {
     images: ['/gambarmap/kumbakarnasatu.jpg', '/gambarmap/kumbakarnadua.jpg', '/gambarmap/kumbakarnatiga.jpg', '/gambarmap/kumbakarnaempat.jpg']
     },
 
-        {
+    {
     id: 'panggung',
     position: [imageBounds[1][0] * 0.35, imageBounds[1][1] * 0.32],
     title: t("datamap.panggungkecak.title"),
