@@ -12,19 +12,19 @@ const TicketInfo = () => {
         <ul className="text-sm space-y-3">
           <li className="flex justify-between border-b border-white/20 pb-1">
             <span>{t("ticket.foreignerAdult")}</span>
-            <span>Rp 50K</span>
+            <span>Rp 60K</span>
           </li>
           <li className="flex justify-between border-b border-white/20 pb-1">
             <span>{t("ticket.indonesianAdult")}</span>
-            <span>Rp 30K</span>
+            <span>Rp 40K</span>
           </li>
           <li className="flex justify-between border-b border-white/20 pb-1">
             <span>{t("ticket.foreignerChild")}</span>
-            <span>Rp 30K</span>
+            <span>Rp 40K</span>
           </li>
           <li className="flex justify-between">
             <span>{t("ticket.indonesianChild")}</span>
-            <span>Rp 20K</span>
+            <span>Rp 30K</span>
           </li>
         </ul>
          <p className="mt-5">{t("ticket.dsckawasan")}</p>
